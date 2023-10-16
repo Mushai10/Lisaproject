@@ -1,0 +1,62 @@
+import { useState } from 'react';
+import { useSelector } from 'react-redux';
+import Link from 'next/link';
+import PropTypes from 'prop-types';
+import {
+    IoMenuOutline,
+    IoBagHandleOutline,
+    IoHeartOutline,
+    IoPersonOutline,
+} from 'react-icons/io5';
+
+import Cart from '../Cart';
+import OffcanvasComps from './OffcanvasComps';
+
+// Tailwind Related Stuff
+const badge =
+    'bg-primary text-[12px] text-center absolute bottom-[-10px] right-[-10px] h-[20px] leading-[20px] rounded-[20px] px-[6px] transition-all group-hover:text-white';
+
+function HeaderRight({ headerItems }) {
+    const [offcanvas, setOffcanvas] = useState(false);
+    const showOffcanvas = () => setOffcanvas(!offcanvas);
+
+    const [minicart, setMiniCart] = useState(false);
+    const showMiniCart = () => setMiniCart(!minicart);
+
+    const cartQuantity = useSelector((state) => state.cart.totalQuantity);
+    const wishlistQuantity = useSelector(
+        (state) => state.wishlist.totalQuantity
+    );
+
+    return (
+        <>
+            <div className="flex justify-end">
+               
+               
+                
+                <div className="menu-item">
+                    <button
+                        type="button"
+                        className="text-2xl hover:text-primary transition-all"
+                        onClick={showOffcanvas}
+                    >
+                        <IoMenuOutline />
+                    </button>
+                </div>
+            </div>
+
+            <OffcanvasComps
+                headerItems={headerItems}
+                offcanvas={offcanvas}
+                showOffcanvas={showOffcanvas}
+            />
+            <Cart minicart={minicart} showMiniCart={showMiniCart} />
+        </>
+    );
+}
+
+HeaderRight.propTypes = {
+    headerItems: PropTypes.instanceOf(Object).isRequired,
+};
+
+export default HeaderRight;
