@@ -11,7 +11,7 @@ import FeaturedService from '../components/HomePage/FeaturedService';
 function HomeCarouselPage({
     footerItems,
     heroCollectionItems,
-    newArrivalTwo,
+    // newArrivalTwo,
     products,
     headerItems,
     featuredService,
@@ -47,16 +47,16 @@ function HomeCarouselPage({
 export async function getStaticProps() {
     const headerItems = await getAllItems('header');
     const heroCollectionItems = await getAllItems('hero-collection');
-    const newArrivalTwo = await getAllItems('home-collection');
+    // const newArrivalTwo = await getAllItems('home-collection');
     const products = await getAllItems('products');
     const footerItems = await getAllItems('footer');
-    const featuredService = await getAllItems('featured-service');
+    const featuredService = await getAllItems('land-scapping-johannesburg');
 
     return {
         props: {
             headerItems,
             heroCollectionItems,
-            newArrivalTwo,
+            // newArrivalTwo,
             products,
             footerItems,
             featuredService,

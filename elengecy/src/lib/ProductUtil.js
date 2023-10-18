@@ -46,10 +46,10 @@ export function productsFromAPI(items) {
 export async function getItemData(itemIdentifier, type) {
     //TODO: Replace id with slug
     if (type === 'products') {
-        const { data: _products } = await commerce.products.list();
+        const data = products.filter((item) => item.id === itemIdentifier)[0];
+        // const { data: _products } = await commerce.products.list();
+        // const data = productsFromAPI(_products).filter((item) => item.id === itemIdentifier)[0];
         // console.log('Fetching a particular product: ', itemIdentifier);
-        // const data = products.filter((item) => item.id === itemIdentifier)[0];
-        const data = productsFromAPI(_products).filter((item) => item.id === itemIdentifier)[0];
         // data.forEach((item)=>{
         //     console.log("Item Price: ", item.price)
         // })

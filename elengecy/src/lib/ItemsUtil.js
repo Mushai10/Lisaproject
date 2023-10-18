@@ -53,8 +53,8 @@ export async function getItemData(itemIdentifier, type) {
 export async function getAllItems(type) {
     // console.log("Type: ", type, type === "products")
     if (type === "products") {
-        const { data: _products } = await commerce.products.list();
-        // return products;
+        return products;
+        // const { data: _products } = await commerce.products.list();
         return productsFromAPI(_products)
     }
 

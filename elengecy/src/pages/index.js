@@ -31,7 +31,7 @@ function HomePage({
             {/* <FeaturedProduct featuredProduct={featuredProduct} /> */}
             <Featuredservice featuredService={featuredService} />
            
-            <OfferColection offerColection={offerColection} />
+            {/* <OfferColection offerColection={offerColection} /> */}
             <Faq faq={faq}/>
             {/* <LatestBlog blogs={blogs} sectionTitle="Our Blog" />
             <NewsletterComps sectionTitle="Our Newsletter" /> */}

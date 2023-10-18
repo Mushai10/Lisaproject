@@ -6,13 +6,15 @@ import HeroFour from '../components/Hero/index-4';
 import NewsletterCompsThree from '../components/NewsletterComps/index-3';
 import NewArrivalTwo from '../components/NewArrival/index-2';
 import FooterCompsThree from '../components/FooterComps/index-3';
+import FeaturedService from '../components/HomePage/FeaturedService';
 
 function HomeCarouselPage({
     footerItems,
     heroCollectionItems,
-    newArrivalTwo,
+    // newArrivalTwo,
     products,
     headerItems,
+    featuredService,
 }) {
     return (
         <>
@@ -20,20 +22,22 @@ function HomeCarouselPage({
                 <HeaderFour headerItems={headerItems} />
                 <HeroFour
                     heroCollectionItems={heroCollectionItems}
-                    btnText="Request Quote"
+                    btnText="Shop Now"
                 />
-                <NewsletterCompsThree
+                {/* <NewsletterCompsThree
                     newsletterCName="newsletter-area lg:pt-[95px] md:pt-[75px] pt-[45px]"
                     sectionTitle="Sign Up To Get 50% Discount"
-                    sectionDesc="Subscribe to our newsletter and get a 50% discount.The joy of our customersis a great honor for us."
+                    sectionDesc=" Whether you want to modernize an outdated kitchen, enhance its functionality, or create a more inviting and efficient cooking area, here are the key steps and considerations for a successful kitchen renovation."
                     containerCName="container"
-                />
-                <NewArrivalTwo
+                /> */}
+                {/* <NewArrivalTwo
                     newArrivalTwo={newArrivalTwo}
                     products={products}
-                    excerpt="Various versions have evolved over the years, some times by accident, some times on purpose."
-                    btnText="Chat With Our Consult"
-                />
+                    // excerpt="Planning and Design: Work with a professional kitchen designer or architect to create a detailed plan for your new kitchen. Consider factors like layout, flow, storage, lighting, and the overall style you want to achieve. The design phase may include creating blueprints or 3D renderings."
+                    ecxcerpt="excerpt"
+                    btnText="Shop Now"
+                /> */}
+                <FeaturedService featuredService={featuredService} />
             </HomeCollection>
             <FooterCompsThree footerItems={footerItems} />
         </>
@@ -43,17 +47,19 @@ function HomeCarouselPage({
 export async function getStaticProps() {
     const headerItems = await getAllItems('header');
     const heroCollectionItems = await getAllItems('hero-collection');
-    const newArrivalTwo = await getAllItems('new-arrival-two');
+    // const newArrivalTwo = await getAllItems('home-collection');
     const products = await getAllItems('products');
     const footerItems = await getAllItems('footer');
+    const featuredService = await getAllItems('interior-design-johannesburg');
 
     return {
         props: {
             headerItems,
             heroCollectionItems,
-            newArrivalTwo,
+            // newArrivalTwo,
             products,
             footerItems,
+            featuredService,
         },
     };
 }
