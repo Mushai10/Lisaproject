@@ -1,11 +1,11 @@
 ---
 id: 'featured-service-01'
 subTitle: 'Featured Service'
-title: 'Home Renovation'
-excerpt: 'Maybe you’re planning to remodel your kitchen, turn your garage into a home office or simply update your bathroom. Before you start any renovations, here’s what you should know.Home renovation or remodeling requires both architectural and financial planning. Learn how to set a budget, hire a contractor, and much more.Home renovation services encompass a wide range of activities aimed at improving or updating various aspects of a residential property. These services can vary in scale and scope, from small interior upgrades to extensive structural changes. We Can Help Plan Structural Redesigns and Decor Themes. Start Your next Project with Us. We Listen to Your Needs and Work Hard to Achieve Your Interior Design Goals. '
+title: 'Initial Consultation'
+excerpt: ' Start Your next Project with Us. We Listen to Your Needs and Work Hard to Achieve Your Interior Design Goals.To kicstart the design process , we will schedule an initial consultation with you.During this meeting , our team will get to know you better ,understand your lifestyle ,preferences , and vision for the spaces .We will discuss your likes , dislikes , color palettes ,and any specific themes youmay have in mind '
 image: '/images/furniture/homerenovationsandton.jpeg'
 altImage: 'Featured Service Image'
 path: '/about'
-buttonText: 'Get in touch'
-buttonText1: 'Learn More'
+buttonText: 'Book Consultant'
+buttonText1: 'Book Consult'
 ---
