@@ -46,7 +46,7 @@ function HomeCarouselPage({
 
 export async function getStaticProps() {
     const headerItems = await getAllItems('header');
-    const heroCollectionItems = await getAllItems('hero-collection');
+    const heroCollectionItems = await getAllItems('hero-collection-landscaping-johanneesburg');
     // const newArrivalTwo = await getAllItems('home-collection');
     const products = await getAllItems('products');
     const footerItems = await getAllItems('footer');
