@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import Link from 'next/link';
 import { IoArrowForwardOutline } from 'react-icons/io5';
 
-function FeaturedService({ featuredService }) {
+function FeaturedService({ featuredService, callToActions }) {
     const outlineButton =
         'inline-flex items-center border border-secondary text-secondary transition-all hover:bg-secondary hover:text-white leading-[38px] text-[15px] h-[38px] px-[35px]';
     const outlineButton1 =
@@ -117,9 +117,35 @@ function FeaturedService({ featuredService }) {
                                         <IoArrowForwardOutline className="ml-[5px]" />
                                     </Link>
                                 </div>
-                                
+
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            {/* TODO: Call to action button */}
+            <div className="my-10 bg-primary featured-product xl:pt-[120px] lg:pt-[100px] md:pt-[80px] pt-[50px] xl:pb-[110px] lg:pb-[90px] pb-[60px] relative before:content-[attr(data-count)] before:absolute before:text-[#F5F4F7] before:font-semibold before:xxl:text-[150px]  before:xl:text-[80px] before:text-[40px] before:bottom-[35px] before:right-0 before:z-[1] items-center">
+                <h2 className="text-center">
+                    Get in touch with us to discuss your project
+                </h2>
+                <div className='flex items-center justify-center gap-8'>
+                    <div className="mt-[60px] grid items-center justify-center">
+                        <Link
+                            href={"tel:+2711829899"}
+                            className={outlineButton}
+                        >
+                            Contact Us
+                            <IoArrowForwardOutline className="ml-[5px]" />
+                        </Link>
+                    </div>
+                    <div className="mt-[60px] grid items-center justify-center">
+                        <Link
+                            href={"/contact"}
+                            className={outlineButton}
+                        >
+                            Book a Consultation
+                            <IoArrowForwardOutline className="ml-[5px]" />
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -181,57 +207,57 @@ function FeaturedService({ featuredService }) {
                     </div>
                 </div>
                 <div
-                className="featured-product xl:pt-[135px] lg:pt-[115px] md:pt-[95px] pt-[65px] relative before:content-[attr(data-count)] before:absolute before:text-[#F5F4F7] before:font-semibold before:xxl:text-[150px]  before:xl:text-[80px] before:text-[40px] before:bottom-[-75px] before:left-0 before:z-[1]"
-                data-count=""
-            >
-                <div className="container">
-                    <div className="grid md:grid-cols-2 grid-cols-12 lm:gap-x-[30px] md:gap-y-0 gap-y-[30px] group">
-                        <div className="md:col-span-1 col-span-12 order-2">
-                            <Link
-                                href={featuredService[3]?.path}
-                                className="featured-product-img block transition-all duration-500 group-hover:scale-[1.05]"
-                            >
-                                <img
-                                    src={featuredService[3]?.image}
-                                    alt={featuredService[3]?.altImage}
-                                />
-                            </Link>
-                        </div>
-                        <div className="md:col-span-1 col-span-12 self-center order-1">
-                            <div className="featured-product-content">
-                                <span className="text-[14px] leading-5 font-medium uppercase block mb-[5px] text-[#999999]">
-                                    {featuredService[3]?.subTitle}
-                                </span>
-                                <h2 className="relative after:bg-primary after:absolute after:left-0 after:bottom-0 after:h-[4px] after:w-[70px] pb-[10px] mb-[30px]">
-                                    <Link
-                                        href={featuredService[3]?.path}
-                                        className="transition-all hover:text-primary"
-                                    >
-                                        {featuredService[3]?.title}
-                                    </Link>
-                                </h2>
-                                <p
-                                    dangerouslySetInnerHTML={{
-                                        __html: featuredService[3]?.excerpt,
-                                    }}
-                                />
-                                <div className="mt-[60px]">
-                                    <Link
-                                        href={featuredService[3]?.path}
-                                        className={outlineButton}
-                                    >
-                                        {featuredService[3]?.buttonText}
-                                        <IoArrowForwardOutline className="ml-[5px]" />
-                                    </Link>
+                    className="featured-product xl:pt-[135px] lg:pt-[115px] md:pt-[95px] pt-[65px] relative before:content-[attr(data-count)] before:absolute before:text-[#F5F4F7] before:font-semibold before:xxl:text-[150px]  before:xl:text-[80px] before:text-[40px] before:bottom-[-75px] before:left-0 before:z-[1]"
+                    data-count=""
+                >
+                    <div className="container">
+                        <div className="grid md:grid-cols-2 grid-cols-12 lm:gap-x-[30px] md:gap-y-0 gap-y-[30px] group">
+                            <div className="md:col-span-1 col-span-12 order-2">
+                                <Link
+                                    href={featuredService[3]?.path}
+                                    className="featured-product-img block transition-all duration-500 group-hover:scale-[1.05]"
+                                >
+                                    <img
+                                        src={featuredService[3]?.image}
+                                        alt={featuredService[3]?.altImage}
+                                    />
+                                </Link>
+                            </div>
+                            <div className="md:col-span-1 col-span-12 self-center order-1">
+                                <div className="featured-product-content">
+                                    <span className="text-[14px] leading-5 font-medium uppercase block mb-[5px] text-[#999999]">
+                                        {featuredService[3]?.subTitle}
+                                    </span>
+                                    <h2 className="relative after:bg-primary after:absolute after:left-0 after:bottom-0 after:h-[4px] after:w-[70px] pb-[10px] mb-[30px]">
+                                        <Link
+                                            href={featuredService[3]?.path}
+                                            className="transition-all hover:text-primary"
+                                        >
+                                            {featuredService[3]?.title}
+                                        </Link>
+                                    </h2>
+                                    <p
+                                        dangerouslySetInnerHTML={{
+                                            __html: featuredService[3]?.excerpt,
+                                        }}
+                                    />
+                                    <div className="mt-[60px]">
+                                        <Link
+                                            href={featuredService[3]?.path}
+                                            className={outlineButton}
+                                        >
+                                            {featuredService[3]?.buttonText}
+                                            <IoArrowForwardOutline className="ml-[5px]" />
+                                        </Link>
+                                    </div>
+
+
                                 </div>
-                               
-                                
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            
+
             </div>
             <div
                 className="featured-product xl:pt-[120px] lg:pt-[100px] md:pt-[80px] pt-[50px] xl:pb-[110px] lg:pb-[90px] pb-[60px] relative before:content-[attr(data-count)] before:absolute before:text-[#F5F4F7] before:font-semibold before:xxl:text-[150px]  before:xl:text-[80px] before:text-[40px] before:bottom-[35px] before:right-0 before:z-[1]"
@@ -277,19 +303,20 @@ function FeaturedService({ featuredService }) {
                                         <IoArrowForwardOutline className="ml-[5px]" />
                                     </Link>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
         </>
     );
 }
 
 FeaturedService.propTypes = {
     featuredService: PropTypes.instanceOf(Object).isRequired,
+    callToActions: PropTypes.instanceOf(Object),
 };
 
 export default FeaturedService;

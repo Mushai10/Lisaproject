@@ -11,6 +11,7 @@ import FooterComps from '../components/FooterComps';
 import React from 'react';
 import Featuredservice from '../components/HomePage/FeaturedService';
 import BlogDefault from '../components/Blogs/BlogDefault';
+import Faq from '../components/FAQ';
 
 
 
@@ -22,6 +23,7 @@ function HomePage({
     offerColection,
     blogs,
     footerItems,
+    faqItems
 }) {
 
     return (
@@ -31,6 +33,11 @@ function HomePage({
             {/* <FeaturedProduct featuredProduct={featuredProduct} /> */}
             <Featuredservice featuredService={featuredService} />
             <BlogDefault blogs={blogs} />
+            <Faq
+                faqItems={faqItems}
+                title="Frequently Question"
+                desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id erat sagittis"
+            />
             {/* <OfferColection offerColection={offerColection} /> */}
            
             {/* <LatestBlog blogs={blogs} sectionTitle="Our Blog" />
@@ -59,6 +66,7 @@ export async function getStaticProps() {
     const blogs = await getAllItems('blogs');
     const LatestBlog = getFeaturedItems(blogs);
     const footerItems = await getAllItems('footer');
+    const faqItems = await getAllItems("faq")
 
     
 
@@ -71,7 +79,7 @@ export async function getStaticProps() {
            
             blogs ,
             offerColection,
-        
+            faqItems,
             footerItems,
         },
     };
@@ -82,8 +90,7 @@ HomePage.propTypes = {
     heroDefaultItems: PropTypes.instanceOf(Object).isRequired,
     featuredProduct: PropTypes.instanceOf(Object).isRequired,
     featuredService: PropTypes.instanceOf(Object).isRequired,
-   
-    
+    faqItems: PropTypes.instanceOf(Object).isRequired,
     offerColection: PropTypes.instanceOf(Object).isRequired,
     blogs: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,

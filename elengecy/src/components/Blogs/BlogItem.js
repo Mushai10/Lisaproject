@@ -14,7 +14,8 @@ function BlogItem({ blog }) {
                 <Link href={`/blogs/${blog?.slug}`} className="blog-img block">
                     <img
                         className="object-cover object-center w-full"
-                        src="/images/services-pictures/cabinet-renovations.jpeg"
+                        // src="/images/services-pictures/cabinet-renovations.jpeg"
+                        src={blog?.blogImg}
                         alt={blog?.altImage}
                         width={374}
                         height={243}
