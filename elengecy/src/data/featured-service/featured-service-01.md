@@ -1,9 +1,9 @@
 ---
 id: 'featured-service-01'
-subTitle: 'Featured Service'
-title: 'Home Renovation'
-excerpt: 'A full house renovation can include kitchen and bathrooms refurbishment, new flooring, heating, wiring and plumbing and a new boiler. It often includes new windows and doors and plastering and painting of the internal and external walls. New ceilings might be included as well.Maybe you’re planning to remodel your kitchen, turn your garage into a home office or simply update your bathroom. Before you start any renovations, here’s what you should know.Home renovation or remodeling requires both architectural and financial planning.Our house refurbishment services include design and build of interiors of flats, apartments or houses. We can renovate your property internally or externally including new bathroom, kitchen, flooring, walls, painting, doors, plumbing and electricals all internal finishishes.We Can Help Plan Structural Redesigns and Decor Themes. Start Your next Project with Us. We Listen to Your Needs and Work Hard to Achieve Your Interior Design Goals. '
-image: '/images/furniture/homerenovationsandton.jpeg'
+subTitle: 'Understanding Your Vision'
+title: 'One step closer to your dream kitchen.'
+excerpt: "You’ve taken the first step to installing your dream kitchen,and cupboards. We are your kicthen renovation partner and we are here to assit you with your vision.Our design consultant will complete a needs analysis and will then suggest the most appropriate kitchen design, appliances, accessories and materials that will best suit you. The more information you give at this stage, the closer the initial design will be to what you really want. Designing parts of your kitchen is not just about the cupboards and appliances, it’s about the people who use it.Only by understanding you better can we create a kitchen which will allow you to express yourself in whichever way you choose. From design to installation, you can rest assured that your experience with Elengency Interiors will be second to none.We can change the style of your kitchen however you like.We understand that everyone’s needs and wants are different, and that’s why we offer a free consultation to discuss your specific requirements and provide you with a detailed quote. There is no obligation to proceed with our services, but we’re confident that you’ll be impressed with what we offer. "
+image: '/images/furniture/kitchen-renovations-sandton.jpeg'
 altImage: 'Featured Service Image'
 path: '/about'
 buttonText: 'Get in touch'

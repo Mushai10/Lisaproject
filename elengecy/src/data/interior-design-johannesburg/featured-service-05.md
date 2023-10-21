@@ -9,3 +9,6 @@ path: '/about'
 buttonText: 'Read More'
 buttonText1: 'Book Consultant'
 ---
+/*Let us visit you, see your space, walk you through your choices. The execution of that design – the renovation of your home – must be coordinated by Manhattan professionals, like NYKB.Our designs are for your life and your lifestyle.
+Your new interior design must be done by Manhattan professionals like NYKB.We offer the largest selection of Manhattan design options, including high-end kitchen and bathroom cabinetry, countertops, flooring, tile, and building materials.
+Let us come visit you, see your space, walk you through your choices and give you a completely free design consultation. Then we’ll make a three-dimensional presentation of what your space can look like*/

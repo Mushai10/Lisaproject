@@ -1,8 +1,8 @@
 ---
 id: 'hero-collection-02'
-subtitle: 'Helendo store'
-title: 'Kitchen Planning and Design'
-desc: ' Kitchen planning and design is a critical phase of any kitchen renovation or new construction project. It involves creating a functional, aesthetically pleasing, and efficient kitchen space that meets your specific needs and preferences.'
+subtitle: 'Best kitchen interior designer johannesburg'
+title: 'Kitchen Planning and Interior Design'
+desc: ' From design to installation, you can rest assured that your experience with Elengency Interiors will be second to none. '
 image: '/images/hero/home-collection/kitchenplanning.jpg'
 imageAlt: 'Slide Image'
 ---

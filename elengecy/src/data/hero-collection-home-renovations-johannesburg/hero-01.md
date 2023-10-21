@@ -1,8 +1,8 @@
 ---
 id: 'hero-collection-01'
 subtitle: 'Elengecy Interiors'
-title: 'Kitchen Renovations'
-desc: ' Kitchen renovations are popular home improvement projects aimed at updating and improving the functionality, aesthetics, and overall value of a kitchen space. Whether you want to modernize an outdated kitchen, enhance its functionality, or create a more inviting and efficient cooking area, here are the key steps and considerations.'
+title: 'Your renovation,our expertise'
+desc: "Hire the right general contractor and build your vision with Sweeten.We invite you to make contact with our interior design studio to collaborate or enquire about a project.Your renovation,our expertise.Let's Discuss Your Next Project"
 image: '/images/hero/home-collection/kitchenrenovationssandton.jpg'
 imageAlt: 'Slide Image'
 ---

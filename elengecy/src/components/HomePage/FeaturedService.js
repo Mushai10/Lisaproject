@@ -180,6 +180,108 @@ function FeaturedService({ featuredService }) {
                         </div>
                     </div>
                 </div>
+                <div
+                className="featured-product xl:pt-[135px] lg:pt-[115px] md:pt-[95px] pt-[65px] relative before:content-[attr(data-count)] before:absolute before:text-[#F5F4F7] before:font-semibold before:xxl:text-[150px]  before:xl:text-[80px] before:text-[40px] before:bottom-[-75px] before:left-0 before:z-[1]"
+                data-count=""
+            >
+                <div className="container">
+                    <div className="grid md:grid-cols-2 grid-cols-12 lm:gap-x-[30px] md:gap-y-0 gap-y-[30px] group">
+                        <div className="md:col-span-1 col-span-12 order-2">
+                            <Link
+                                href={featuredService[3]?.path}
+                                className="featured-product-img block transition-all duration-500 group-hover:scale-[1.05]"
+                            >
+                                <img
+                                    src={featuredService[3]?.image}
+                                    alt={featuredService[3]?.altImage}
+                                />
+                            </Link>
+                        </div>
+                        <div className="md:col-span-1 col-span-12 self-center order-1">
+                            <div className="featured-product-content">
+                                <span className="text-[14px] leading-5 font-medium uppercase block mb-[5px] text-[#999999]">
+                                    {featuredService[3]?.subTitle}
+                                </span>
+                                <h2 className="relative after:bg-primary after:absolute after:left-0 after:bottom-0 after:h-[4px] after:w-[70px] pb-[10px] mb-[30px]">
+                                    <Link
+                                        href={featuredService[3]?.path}
+                                        className="transition-all hover:text-primary"
+                                    >
+                                        {featuredService[3]?.title}
+                                    </Link>
+                                </h2>
+                                <p
+                                    dangerouslySetInnerHTML={{
+                                        __html: featuredService[3]?.excerpt,
+                                    }}
+                                />
+                                <div className="mt-[60px]">
+                                    <Link
+                                        href={featuredService[3]?.path}
+                                        className={outlineButton}
+                                    >
+                                        {featuredService[3]?.buttonText}
+                                        <IoArrowForwardOutline className="ml-[5px]" />
+                                    </Link>
+                                </div>
+                               
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+            <div
+                className="featured-product xl:pt-[120px] lg:pt-[100px] md:pt-[80px] pt-[50px] xl:pb-[110px] lg:pb-[90px] pb-[60px] relative before:content-[attr(data-count)] before:absolute before:text-[#F5F4F7] before:font-semibold before:xxl:text-[150px]  before:xl:text-[80px] before:text-[40px] before:bottom-[35px] before:right-0 before:z-[1]"
+                data-count="Elengecy"
+            >
+                <div className="container">
+                    <div className="grid md:grid-cols-2 grid-cols-12 lm:gap-x-[30px] md:gap-y-0 gap-y-[30px] group">
+                        <div className="md:col-span-1 col-span-12">
+                            <Link
+                                href={featuredService[4]?.path}
+                                className="featured-product-img block transition-all duration-500 group-hover:scale-[1.05]"
+                            >
+                                <img
+                                    src={featuredService[4]?.image}
+                                    alt={featuredService[4]?.altImage}
+                                />
+                            </Link>
+                        </div>
+                        <div className="md:col-span-1 col-span-12 self-center">
+                            <div className="featured-product-content">
+                                <span className="text-[14px] leading-5 font-medium uppercase block mb-[5px] text-[#999999]">
+                                    {featuredService[4]?.subTitle}
+                                </span>
+                                <h2 className="relative after:bg-primary after:absolute after:left-0 after:bottom-0 after:h-[4px] after:w-[70px] pb-[10px] mb-[30px]">
+                                    <Link
+                                        href={featuredService[4]?.path}
+                                        className="transition-all hover:text-primary"
+                                    >
+                                        {featuredService[4]?.title}
+                                    </Link>
+                                </h2>
+                                <p
+                                    dangerouslySetInnerHTML={{
+                                        __html: featuredService[4]?.excerpt,
+                                    }}
+                                />
+                                <div className="mt-[60px]">
+                                    <Link
+                                        href={featuredService[4]?.path}
+                                        className={outlineButton}
+                                    >
+                                        {featuredService[4]?.buttonText}
+                                        <IoArrowForwardOutline className="ml-[5px]" />
+                                    </Link>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             
         </>

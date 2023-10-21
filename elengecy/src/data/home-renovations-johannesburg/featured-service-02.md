@@ -1,8 +1,8 @@
 ---
 id: 'featured-service-02'
-subTitle: 'Featured Service'
-title: 'Kitchen Renovation'
-excerpt: 'Design and build company for loft conversions, home extension and renovations including plumbing and electricals.Every renovation is an excellent way to make your home better. This involves movement of internal walls, replacing existing kitchen, changing you finished flooring, changing your new bathroom, upgrading existing electricals and plumbing systems or radiators, painting and decorating, structurally supporting the walls above to make open plan living, new windows or even adding exterior new roofs, render or new cladding. Whatever the renovation project to make your dream a home.All the above work is what we do and can do it for your home too. Our renovation services are for private homeowners who own houses, apartments or flats and also landlords looking to convert their commercial property into residential.No matter your plans or property dreams, Elengency Interiors  is your London refurbishment specialist.'
+subTitle: 'No other service comes close!'
+title: 'People love renovating with us'
+excerpt: "We specialize in renovating complete homes: New York City co-ops, condos, townhouses and brownstones. From apartment renovation design to full completion, we take care of everything. The more involved and complex the project, the more NYKB’s advantage becomes apparent. During the process, you get peace of mind. At the end of the process, you get the satisfaction of the home of your dreams.Schedule no-obligation home consultation. Meet our experienced team of designers, consultants, project managers, contractors, and field crew. You’ll come away knowing you’ve met people who care about your project and will do it right."
 image: '/images/furniture/kitchenrenovationsjohhanesburg.jpeg'
 altImage: 'Featured Service Image'
 path: '/about'

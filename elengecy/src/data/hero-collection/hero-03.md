@@ -1,8 +1,8 @@
 ---
 id: 'hero-collection-03'
-subtitle: 'Helendo store'
-title: 'Kitchen Renovation Contractor'
-desc: ' who specialize in kitchen remodeling to ensure the best results. Proper planning and attention to detail are essential for a successful kitchen renovation When undertaking a kitchen renovation project, hiring a qualified and reputable kitchen renovation contractor is crucial to ensure the success of your project .'
+subtitle: 'What are you waiting for ?'
+title: ' Transform Your Kitchen Today'
+desc: '  We use top quality materials and accessories as well as highly qualified, full insured workers to ensure the new kitchen you love lasts for years.We ensure the success of your project .'
 image: '/images/hero/home-collection/kitchenrenovationsjohhanesburg.jpg'
 imageAlt: 'Slide Image'
 ---

@@ -38,6 +38,7 @@ function HomeCarouselPage({
                 /> */}
                 <FeaturedService featuredService={featuredService} />
             </HomeCollection>
+            
             <FooterCompsThree footerItems={footerItems} />
         </>
     );
@@ -64,7 +65,7 @@ export async function getStaticProps() {
 HomeCarouselPage.propTypes = {
     headerItems: PropTypes.instanceOf(Object).isRequired,
     heroCollectionItems: PropTypes.instanceOf(Object).isRequired,
-    newArrivalTwo: PropTypes.instanceOf(Object).isRequired,
+    featuredService: PropTypes.instanceOf(Object).isRequired,
     products: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
 };

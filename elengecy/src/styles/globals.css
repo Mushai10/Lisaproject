@@ -215,13 +215,13 @@ label {
 
 /* All Hero Background */
 .hero-default-bg-01 {
-    @apply bg-[url('/images/hero/home-default/6.jpg')];
+    @apply bg-[url('/images/hero/home-default/22.jpeg')];
 }
 .hero-default-bg-02 {
-    @apply bg-[url('/images/hero/home-default/1.jpg')];
+    @apply bg-[url('/images/hero/home-default/11.jpeg')];
 }
 .hero-default-bg-03 {
-    @apply bg-[url('/images/hero/home-default/3.jpg')];
+    @apply bg-[url('/images/hero/home-default/23.jpeg')];
 }
 
 .hero-carousel-bg-01 {

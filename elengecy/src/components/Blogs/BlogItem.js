@@ -14,7 +14,7 @@ function BlogItem({ blog }) {
                 <Link href={`/blogs/${blog?.slug}`} className="blog-img block">
                     <img
                         className="object-cover object-center w-full"
-                        src={`/images/blogs/${blog?.slug}/${blog?.mediumImage}`}
+                        src="/images/services-pictures/cabinet-renovations.jpeg"
                         alt={blog?.altImage}
                         width={374}
                         height={243}
@@ -28,36 +28,10 @@ function BlogItem({ blog }) {
                     <IoAddSharp className="ml-[5px]" />
                 </Link>
             </div>
-            <div className="blog-content pt-[25px]">
-                <h2 className="text-[20px] leading-7 ">
-                    <Link
-                        href={`/blogs/${blog?.slug}`}
-                        className="relative block pb-[15px] mb-[10px] before:bg-[#cacaca] before:absolute before:left-0 before:bottom-[-3px] before:h-[1.5px] before:w-[70px]  before:transition before:ease-in-out before:duration-[800ms] after:bg-primary after:absolute after:left-0 after:bottom-[-3px] after:h-[1.5px] after:w-0 after:transform after:transition-all after:duration-500 group-hover:after:w-[70px]"
-                    >
-                        {blog?.title}
-                    </Link>
-                </h2>
-                <div className="blog-meta text-[14px]">
-                    <span className='date after:text-[#999999] after:px-[8px] after:content-["/"]'>
-                        {formattedDate}
-                    </span>
-                    <Link
-                        href="https://www.example.com/"
-                        className='author font-normal hover:text-primary transition-all after:text-[#999999] after:px-[8px] after:content-["/"]'
-                    >
-                        {blog?.author}
-                    </Link>
-                    <span>
-                        <span className="text-[#999999] mr-[5px]">in</span>
-                        <Link
-                            href={`/blogs/${blog?.slug}`}
-                            className="category font-normal hover:text-primary transition-all"
-                        >
-                            {blog?.categoryItem}
-                        </Link>
-                    </span>
-                </div>
-            </div>
+            
+               
+            
+            
         </div>
     );
 }
