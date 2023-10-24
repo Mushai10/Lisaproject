@@ -1,5 +1,5 @@
 ---
 id: 02
-question: 'What are the advantages of Helendo?'
-answer: "Helendo takes into consideration every little detail to make sure the system run smoothly and responsively. Helendo employs a new technique called Minified Technology for securing customers' database & building up highly confidential firewalls."
+question: 'Do you work with architects for interior design?'
+answer: "Yes, we do collaborate with architects. We request clients to provide us with the .dwg file from their architect to ensure a seamless integration of our interior designs with the architectural layout."
 ---

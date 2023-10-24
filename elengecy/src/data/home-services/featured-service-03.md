@@ -1,11 +1,11 @@
 ---
 id: 'featured-service-03'
-subTitle: 'Featured Service'
+subTitle: 'Ready for a new bathroom experience? Try a renovation.'
 title: 'Bathroom Renovations'
-excerpt: 'Elements of a traditional kitchen include luxury countertops, farmhouse sinks, raised-panel doors, decorative mouldings and corbels.Modern kitchen include flat-panel doors, frameless, full-overlay cabinet construction, consistency of accent pieces, emphasis on horizontal lines and designed in a way to let the materials’ natural beauty pop! If this is the look you’re after, talk to us today and let’s discuss options and ideas for renovating your kitchen. See our guide for tips on making the right choice for your project.'
+excerpt: 'The redesign of your bathroom is a critical measure you take as it adds value to your house.If you’re looking to fully renovate your bathroom and update your soft furnishings, our team interior decorators, architectures ,contractors will assist with a full new room scheme.Our home renovation service focuses on updating your interiors through core design elements such as flooring, lighting, ceilings, skirtings and doors to create a new design language.Get in touch with our consultant and start your jorney on getting a functional, aesthetically pleasing, and efficient bathroom space that meets your specific needs and preferences.'
 image: '/images/furniture/bathroom-renovations-gauteng.jpeg'
 altImage: 'Featured Service Image'
 path: '/about'
-buttonText: 'Get in touch'
-buttonText1: 'Learn More'
+buttonText: 'Book A Consultation'
+buttonText1: 'Call Us Now'
 ---
