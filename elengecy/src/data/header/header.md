@@ -170,6 +170,11 @@ homeBoxedMenu: [
                         submenuTitle: 'Home Renovations',
                         submenuPath: '/home-renovations-johannesburg',
                     },
+                     {
+                        id: 'bath-reno',
+                        submenuTitle: 'Bathroom Renovations',
+                        submenuPath: '/bathroom-renovations-johannesburg',
+                    },
                     {
                         id: 'interior-design',
                         submenuTitle: 'Interior Design',

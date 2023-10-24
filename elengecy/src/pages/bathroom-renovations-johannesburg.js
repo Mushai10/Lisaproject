@@ -46,13 +46,11 @@ function HomeCarouselPage({
 
 export async function getStaticProps() {
     const headerItems = await getAllItems('header');
-    const heroCollectionItems = await getAllItems('hero-collection-bathroom-renovations');
+    const heroCollectionItems = await getAllItems('bathroom-renovations-johannesburg');
     // const newArrivalTwo = await getAllItems('home-collection');
     const products = await getAllItems('products');
     const footerItems = await getAllItems('footer');
-    const featuredService = await getAllItems(
-        'bathroom-renovations-johannesburg'
-    );
+    const featuredService = await getAllItems('interior-design-johannesburg');
 
     return {
         props: {
@@ -69,7 +67,7 @@ export async function getStaticProps() {
 HomeCarouselPage.propTypes = {
     headerItems: PropTypes.instanceOf(Object).isRequired,
     heroCollectionItems: PropTypes.instanceOf(Object).isRequired,
-    featuredService: PropTypes.instanceOf(Object).isRequired,
+    newArrivalTwo: PropTypes.instanceOf(Object).isRequired,
     products: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
 };

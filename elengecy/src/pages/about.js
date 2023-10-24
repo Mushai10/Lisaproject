@@ -4,11 +4,12 @@ import Breadcrumb from '../components/Breadcrumb';
 import AboutUs from '../components/AboutUs';
 import FooterComps from '../components/FooterComps';
 import { getAllItems } from '../lib/ItemsUtil';
+import HeaderFour from '../components/HeaderComps/index-4';
 
 function AboutPage({ headerItems, aboutItems, footerItems }) {
     return (
         <>
-            <HeaderOne headerItems={headerItems} headerContainer="container" />
+            <HeaderFour headerItems={headerItems} headerContainer="container" />
             <Breadcrumb
                 breadcrumbContainer="container"
                 title="About Us"
