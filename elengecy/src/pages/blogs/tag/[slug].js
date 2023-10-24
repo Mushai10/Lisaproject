@@ -10,7 +10,7 @@ import { getAllItems } from '../../../lib/ItemsUtil';
 function BlogTagPage({ headerItems, blogs, categories, tags, footerItems }) {
     return (
         <>
-            <HeaderOne headerItems={headerItems} headerContainer="container" />
+            <HeaderFour headerItems={headerItems} headerContainer="container" />
             <Breadcrumb
                 breadcrumbContainer="container"
                 title="Blog Sidebar"

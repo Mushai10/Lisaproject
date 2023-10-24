@@ -50,7 +50,7 @@ export async function getStaticProps() {
     // const newArrivalTwo = await getAllItems('home-collection');
     const products = await getAllItems('products');
     const footerItems = await getAllItems('footer');
-    const featuredService = await getAllItems('land-scapping-johannesburg');
+    const featuredService = await getAllItems('interior-design-johannesburg');
 
     return {
         props: {

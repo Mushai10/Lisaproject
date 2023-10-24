@@ -35,7 +35,7 @@ function HeaderFour({ headerItems }) {
                         <LogoComps
                             headerItems={headerItems}
                             headerLogoCName="flex"
-                            logoPath="/home-collection"
+                            logoPath="/"
                         />
                     </div>
                     <div className="lg:col-span-4 hidden lg:block">
@@ -44,9 +44,9 @@ function HeaderFour({ headerItems }) {
                             differentPositionCName="home-collection-megamenu-holder flex justify-center"
                         />
                     </div>
-                    <div className="lg:col-span-4 col-span-6 self-center">
+                    {false && <div className="lg:col-span-4 col-span-6 self-center">
                         <HeaderRightThree headerItems={headerItems} />
-                    </div>
+                    </div>}
                 </div>
             </div>
         </header>

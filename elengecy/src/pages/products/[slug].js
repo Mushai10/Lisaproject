@@ -4,6 +4,7 @@ import HeaderOne from '../../components/HeaderComps';
 import Breadcrumb from '../../components/Breadcrumb/index-2';
 import ProductDetails from '../../components/Products/ProductDetails';
 import FooterComps from '../../components/FooterComps';
+import HeaderFour from '../../components/HeaderComps/index-4';
 
 function ProductDetailPage({
     product,
@@ -13,7 +14,7 @@ function ProductDetailPage({
 }) {
     return (
         <>
-            <HeaderOne headerItems={headerItems} headerContainer="container" />
+            <HeaderFour headerItems={headerItems} headerContainer="container" />
             <Breadcrumb
                 breadcrumbContainer="container"
                 product={product}

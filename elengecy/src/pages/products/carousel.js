@@ -5,6 +5,7 @@ import ProductTabSlider from '../../components/ProductTab/tab-slider';
 import ProductThreeColumns from '../../components/Products/ProductThreeColumns';
 import FooterComps from '../../components/FooterComps';
 import { getAllItems } from '../../lib/ProductUtil';
+import HeaderFour from '../../components/HeaderComps/index-4';
 
 function ProductCarouselPage({
     headerItems,
@@ -16,7 +17,7 @@ function ProductCarouselPage({
 }) {
     return (
         <>
-            <HeaderOne headerItems={headerItems} headerContainer="container" />
+            <HeaderFour headerItems={headerItems} headerContainer="container" />
             <Breadcrumb
                 breadcrumbContainer="container"
                 title="Product"

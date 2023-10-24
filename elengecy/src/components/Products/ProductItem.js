@@ -87,12 +87,14 @@ function ProductItem({ product, productFilter, productFilterPath }) {
         );
     };
 
+    // TODO: add this to activate product pages href={`/products/${product?.slug}`}
+
     return (
         <>
             <div className="product-item">
                 <div className="product-img relative group after:bg-[rgba(0,0,0,.1)] after:absolute after:top-0 after:left-0 after:h-full after:w-full after:opacity-0 after:transition-all after:pointer-events-none hover:after:opacity-100">
-                    <Link href={`/products/${product?.slug}`} className="block">
-                        {soldOutSticker && (
+                    <Link href={`/products`} className="block">
+                        {false && soldOutSticker && (
                             <span
                                 className={`${soldOutSticker ? `${soldOut}` : ''
                                     }`}
@@ -100,7 +102,7 @@ function ProductItem({ product, productFilter, productFilterPath }) {
                                 {soldOutSticker}
                             </span>
                         )}
-                        {bestSellerSticker && (
+                        {false && bestSellerSticker && (
                             <span
                                 className={`${bestSellerSticker ? `${bestSeller}` : ''
                                     }`}
@@ -108,7 +110,7 @@ function ProductItem({ product, productFilter, productFilterPath }) {
                                 {bestSellerSticker}
                             </span>
                         )}
-                        {offerSticker && (
+                        {false && offerSticker && (
                             <span
                                 className={`${offerSticker ? `${productOffer}` : ''
                                     }`}
@@ -134,7 +136,7 @@ function ProductItem({ product, productFilter, productFilterPath }) {
                             />
                         </div>
                     </Link>
-                    <div className={addAction}>
+                    {false && <div className={addAction}>
                         <button
                             type="button"
                             className={`${addActionButton} mr-[15px] group-hover:delay-[0s]`}
@@ -160,7 +162,7 @@ function ProductItem({ product, productFilter, productFilterPath }) {
                             )}
                             {bestSellerSticker && (
                                 <Link
-                                    href={`/products/${product?.slug}`}
+                                    href={`/products`}
                                     className={`${soldOutSticker
                                             ? `pointer-events-none brightness-75`
                                             : ''
@@ -177,12 +179,12 @@ function ProductItem({ product, productFilter, productFilterPath }) {
                         >
                             <IoHeartOutline />
                         </button>
-                    </div>
+                    </div>}
                 </div>
                 <div className="product-content text-center">
                     <h3 className="mb-[5px]">
                         <Link
-                            href={`/products/${product?.slug}`}
+                            href={`/products`}
                             className="transition-all hover:text-primary text-[16px]"
                         >
                             {title}
@@ -212,7 +214,7 @@ function ProductItem({ product, productFilter, productFilterPath }) {
                             <Link
                                 // TODO: Change back to slug instead of id
                                 // href={`/products/${product?.slug}`} 
-                                href={`/products/${product?.slug}`}
+                                href={`/products`}
                                 className="block relative md:h-full"
                             >
                                 {soldOutSticker && (

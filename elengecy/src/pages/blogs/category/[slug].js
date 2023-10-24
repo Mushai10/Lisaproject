@@ -16,7 +16,7 @@ function BlogCategoryPage({
 }) {
     return (
         <>
-            <HeaderOne headerItems={headerItems} headerContainer="container" />
+            <H headerItems={headerItems} headerContainer="container" />
             <Breadcrumb
                 breadcrumbContainer="container"
                 title="Blog Sidebar"

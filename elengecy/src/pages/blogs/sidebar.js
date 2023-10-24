@@ -16,7 +16,7 @@ function BlogSidebarPage({
 }) {
     return (
         <>
-            <HeaderOne headerItems={headerItems} headerContainer="container" />
+            <HeaderFour headerItems={headerItems} headerContainer="container" />
             <Breadcrumb
                 breadcrumbContainer="container"
                 title="Blog Sidebar"

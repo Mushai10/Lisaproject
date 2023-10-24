@@ -67,12 +67,12 @@ homeBoxedMenu: [
             headerMegamenu: [
                     {
                         id: 'group-one',
-                        groupName: 'Group One',
+                        groupName: 'Products',
                         groupItems:
                             [
                                 {
                                     id: 'product-shop',
-                                    megamenuTitle: 'Shop',
+                                    megamenuTitle: 'View Catalogue',
                                     megamenuPath: '/products',
                                 },
                             ],
@@ -127,53 +127,58 @@ homeBoxedMenu: [
                     #             },
                     #         ],
                     # },
-                    {
-                        id: 'related-product',
-                        groupName: 'Related Product',
-                        groupItems:
-                            [
-                                {
-                                    id: 'cart',
-                                    megamenuTitle: 'Cart',
-                                    megamenuPath: '/cart',
-                                },
-                                {
-                                    id: 'checkout',
-                                    megamenuTitle: 'Checkout',
-                                    megamenuPath: '/checkout',
-                                },
-                                {
-                                    id: 'auth',
-                                    megamenuTitle: 'Auth',
-                                    megamenuPath: '/auth',
-                                },
-                                {
-                                    id: 'wishlist',
-                                    megamenuTitle: 'Wishlist',
-                                    megamenuPath: '/wishlist',
-                                },
-                            ],
-                    },
-                    { id: 'empty-list', groupName: '', groupItems: [] },
+                    # {
+                    #     id: 'related-product',
+                    #     groupName: 'Related Product',
+                    #     groupItems:
+                    #         [
+                    #             {
+                    #                 id: 'cart',
+                    #                 megamenuTitle: 'Cart',
+                    #                 megamenuPath: '/cart',
+                    #             },
+                    #             {
+                    #                 id: 'checkout',
+                    #                 megamenuTitle: 'Checkout',
+                    #                 megamenuPath: '/checkout',
+                    #             },
+                    #             {
+                    #                 id: 'auth',
+                    #                 megamenuTitle: 'Auth',
+                    #                 megamenuPath: '/auth',
+                    #             },
+                    #             {
+                    #                 id: 'wishlist',
+                    #                 megamenuTitle: 'Wishlist',
+                    #                 megamenuPath: '/wishlist',
+                    #             },
+                    #         ],
+                    # },
+                    # { id: 'empty-list', groupName: '', groupItems: [] },
                 ],
         },
         {
             id: 3,
-            title: 'Pages',
+            title: 'Services',
             path: '/',
             holderCName: 'header-submenu-holder group',
             submenuCName: 'header-submenu',
             headerSubmenu:
                 [
                     {
-                        id: 'about',
-                        submenuTitle: 'About Us',
-                        submenuPath: '/about',
+                        id: 'home-reno',
+                        submenuTitle: 'Home Renovations',
+                        submenuPath: '/home-renovations-johannesburg',
                     },
                     {
-                        id: 'contact',
-                        submenuTitle: 'Contact',
-                        submenuPath: '/contact',
+                        id: 'interior-design',
+                        submenuTitle: 'Interior Design',
+                        submenuPath: '/interior-design-johannesburg',
+                    },
+                    {
+                        id: 'land-scaping',
+                        submenuTitle: 'Land scapping',
+                        submenuPath: '/land-scapping-johannesburg',
                     },
                     # {
                     #     id: 'faq',
@@ -221,9 +226,9 @@ homeBoxedMenu: [
 categoryList:
     [
         { id: 1, title: 'All' },
-        { id: 2, title: 'Accessories' },
-        { id: 3, title: 'Decoration' },
-        { id: 4, title: 'Furniture' },
+        { id: 2, title: 'Bathroom renovations' },
+        { id: 3, title: 'Kitchen renovations' },
+        { id: 4, title: 'Home renovations Johannesburg' },
     ]
 headerNumberInfo:
     [

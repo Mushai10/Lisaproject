@@ -36,7 +36,7 @@ function HeroOne({ heroDefaultItems, settings }) {
 
     // Tailwind Related Stuff
     const secondaryButton =
-        'inline-flex items-center bg-secondary text-white leading-[38px] text-[15px] h-[38px] px-5';
+        'flex items-center text-white btn-outline';
 
     return (
         <div className="hero-area">
@@ -158,7 +158,7 @@ function HeroOne({ heroDefaultItems, settings }) {
                                                 },
                                             }}
                                         />
-                                        <motion.div
+                                        {false && <motion.div
                                             className="mt-[30px]"
                                             initial="hidden"
                                             animate={
@@ -193,11 +193,12 @@ function HeroOne({ heroDefaultItems, settings }) {
                                             <Link
                                                 href="/products/left-sidebar"
                                                 className={secondaryButton}
+                                            // className={"flex "}
                                             >
                                                 Get in touch
-                                                <IoArrowForwardOutline className="text-white ml-[5px]" />
+                                                {/* <IoArrowForwardOutline className="text-white ml-[5px]" /> */}
                                             </Link>
-                                        </motion.div>
+                                        </motion.div>}
                                     </div>
                                 </div>
                             </div>

@@ -12,6 +12,7 @@ import React from 'react';
 import Featuredservice from '../components/HomePage/FeaturedService';
 import BlogDefault from '../components/Blogs/BlogDefault';
 import Faq from '../components/FAQ';
+import HeaderFour from '../components/HeaderComps/index-4';
 
 
 
@@ -28,7 +29,9 @@ function HomePage({
 
     return (
         <>
-            <TransparentHeader headerItems={headerItems} />
+            {/* <TransparentHeader headerItems={headerItems} /> */}
+            <HeaderFour headerItems={headerItems} />
+            
             <HeroOne heroDefaultItems={heroDefaultItems} />
             {/* <FeaturedProduct featuredProduct={featuredProduct} /> */}
             <Featuredservice featuredService={featuredService} />

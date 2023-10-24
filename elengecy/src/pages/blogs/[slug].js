@@ -13,7 +13,7 @@ function BlogDetailPage({
 }) {
     return (
         <>
-            <HeaderOne headerItems={headerItems} headerContainer="container" />
+            <HeaderFour headerItems={headerItems} headerContainer="container" />
             <BlogDetail blog={blog} prevBlog={prevBlog} nextBlog={nextBlog} />
             <FooterComps
                 footerContainer="container"

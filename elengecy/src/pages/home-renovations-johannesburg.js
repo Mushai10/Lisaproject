@@ -50,7 +50,7 @@ export async function getStaticProps() {
     // const newArrivalTwo = await getAllItems('home-collection');
     const products = await getAllItems('products');
     const footerItems = await getAllItems('footer');
-    const featuredService = await getAllItems('home-renovations-johannesburg');
+    const featuredService = await getAllItems('interior-design-johannesburg');
 
     return {
         props: {
@@ -67,7 +67,7 @@ export async function getStaticProps() {
 HomeCarouselPage.propTypes = {
     headerItems: PropTypes.instanceOf(Object).isRequired,
     heroCollectionItems: PropTypes.instanceOf(Object).isRequired,
-    // newArrivalTwo: PropTypes.instanceOf(Object).isRequired,
+    newArrivalTwo: PropTypes.instanceOf(Object).isRequired,
     products: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
 };

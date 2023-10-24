@@ -18,7 +18,8 @@ function FeaturedService({ featuredService, callToActions }) {
                     <div className="grid md:grid-cols-2 grid-cols-12 lm:gap-x-[30px] md:gap-y-0 gap-y-[30px] group">
                         <div className="md:col-span-1 col-span-12">
                             <Link
-                                href={featuredService[0]?.path}
+                                // href={featuredService[0]?.path}
+                                href={"#"}
                                 className="featured-product-img block transition-all duration-500 group-hover:scale-[1.05]"
                             >
                                 <img
@@ -34,7 +35,8 @@ function FeaturedService({ featuredService, callToActions }) {
                                 </span>
                                 <h2 className="relative after:bg-primary after:absolute after:left-0 after:bottom-0 after:h-[4px] after:w-[70px] pb-[10px] mb-[30px]">
                                     <Link
-                                        href={featuredService[0]?.path}
+                                        // href={featuredService[0]?.path}
+                                        href={"#"}
                                         className="transition-all hover:text-primary"
                                     >
                                         {featuredService[0]?.title}
@@ -43,7 +45,8 @@ function FeaturedService({ featuredService, callToActions }) {
                                 <p>{featuredService[0]?.excerpt}</p>
                                 <div className="mt-[60px]">
                                     <Link
-                                        href={featuredService[0]?.path}
+                                        // href={featuredService[0]?.path}
+                                        href={"#"}
                                         className={outlineButton}
                                     >
                                         {featuredService[0]?.buttonText}
@@ -52,7 +55,8 @@ function FeaturedService({ featuredService, callToActions }) {
                                 </div>
                                 <div className="mt-[60px]">
                                     <Link
-                                        href={featuredService[0]?.path}
+                                        // href={featuredService[0]?.path}
+                                        href={"#"}
                                         className={outlineButton1}
                                     >
                                         {featuredService[0]?.buttonText1}
@@ -72,7 +76,8 @@ function FeaturedService({ featuredService, callToActions }) {
                     <div className="grid md:grid-cols-2 grid-cols-12 lm:gap-x-[30px] md:gap-y-0 gap-y-[30px] group">
                         <div className="md:col-span-1 col-span-12 order-2">
                             <Link
-                                href={featuredService[1]?.path}
+                                // href={featuredService[1]?.path}
+                                href={"#"}
                                 className="featured-product-img block transition-all duration-500 group-hover:scale-[1.05]"
                             >
                                 <img
@@ -88,7 +93,8 @@ function FeaturedService({ featuredService, callToActions }) {
                                 </span>
                                 <h2 className="relative after:bg-primary after:absolute after:left-0 after:bottom-0 after:h-[4px] after:w-[70px] pb-[10px] mb-[30px]">
                                     <Link
-                                        href={featuredService[1]?.path}
+                                        // href={featuredService[1]?.path}
+                                        href={"#"}
                                         className="transition-all hover:text-primary"
                                     >
                                         {featuredService[1]?.title}
@@ -101,7 +107,8 @@ function FeaturedService({ featuredService, callToActions }) {
                                 />
                                 <div className="mt-[60px]">
                                     <Link
-                                        href={featuredService[1]?.path}
+                                        // href={featuredService[1]?.path}
+                                        href={"#"}
                                         className={outlineButton}
                                     >
                                         {featuredService[1]?.buttonText}
@@ -110,7 +117,8 @@ function FeaturedService({ featuredService, callToActions }) {
                                 </div>
                                 <div className="mt-[60px]">
                                     <Link
-                                        href={featuredService[1]?.path}
+                                        // href={featuredService[1]?.path}
+                                        href={"#"}
                                         className={outlineButton1}
                                     >
                                         {featuredService[1]?.buttonText1}
@@ -157,7 +165,8 @@ function FeaturedService({ featuredService, callToActions }) {
                     <div className="grid md:grid-cols-2 grid-cols-12 lm:gap-x-[30px] md:gap-y-0 gap-y-[30px] group">
                         <div className="md:col-span-1 col-span-12">
                             <Link
-                                href={featuredService[2]?.path}
+                                // href={featuredService[2]?.path}
+                                href={"#"}
                                 className="featured-product-img block transition-all duration-500 group-hover:scale-[1.05]"
                             >
                                 <img
@@ -173,7 +182,8 @@ function FeaturedService({ featuredService, callToActions }) {
                                 </span>
                                 <h2 className="relative after:bg-primary after:absolute after:left-0 after:bottom-0 after:h-[4px] after:w-[70px] pb-[10px] mb-[30px]">
                                     <Link
-                                        href={featuredService[2]?.path}
+                                        // href={featuredService[2]?.path}
+                                        href={"#"}
                                         className="transition-all hover:text-primary"
                                     >
                                         {featuredService[2]?.title}
@@ -195,7 +205,8 @@ function FeaturedService({ featuredService, callToActions }) {
                                 </div>
                                 <div className="mt-[60px]">
                                     <Link
-                                        href={featuredService[2]?.path}
+                                        // href={featuredService[2]?.path}
+                                        href={"#"}
                                         className={outlineButton1}
                                     >
                                         {featuredService[2]?.buttonText1}
@@ -214,7 +225,8 @@ function FeaturedService({ featuredService, callToActions }) {
                         <div className="grid md:grid-cols-2 grid-cols-12 lm:gap-x-[30px] md:gap-y-0 gap-y-[30px] group">
                             <div className="md:col-span-1 col-span-12 order-2">
                                 <Link
-                                    href={featuredService[3]?.path}
+                                    // href={featuredService[3]?.path}
+                                    href={"#"}
                                     className="featured-product-img block transition-all duration-500 group-hover:scale-[1.05]"
                                 >
                                     <img
@@ -230,7 +242,8 @@ function FeaturedService({ featuredService, callToActions }) {
                                     </span>
                                     <h2 className="relative after:bg-primary after:absolute after:left-0 after:bottom-0 after:h-[4px] after:w-[70px] pb-[10px] mb-[30px]">
                                         <Link
-                                            href={featuredService[3]?.path}
+                                            // href={featuredService[3]?.path}
+                                            href={"#"}
                                             className="transition-all hover:text-primary"
                                         >
                                             {featuredService[3]?.title}
@@ -243,7 +256,8 @@ function FeaturedService({ featuredService, callToActions }) {
                                     />
                                     <div className="mt-[60px]">
                                         <Link
-                                            href={featuredService[3]?.path}
+                                            // href={featuredService[3]?.path}
+                                            href={"#"}
                                             className={outlineButton}
                                         >
                                             {featuredService[3]?.buttonText}
@@ -267,7 +281,8 @@ function FeaturedService({ featuredService, callToActions }) {
                     <div className="grid md:grid-cols-2 grid-cols-12 lm:gap-x-[30px] md:gap-y-0 gap-y-[30px] group">
                         <div className="md:col-span-1 col-span-12">
                             <Link
-                                href={featuredService[4]?.path}
+                                // href={featuredService[4]?.path}
+                                href={"#"}
                                 className="featured-product-img block transition-all duration-500 group-hover:scale-[1.05]"
                             >
                                 <img
@@ -283,7 +298,8 @@ function FeaturedService({ featuredService, callToActions }) {
                                 </span>
                                 <h2 className="relative after:bg-primary after:absolute after:left-0 after:bottom-0 after:h-[4px] after:w-[70px] pb-[10px] mb-[30px]">
                                     <Link
-                                        href={featuredService[4]?.path}
+                                        // href={featuredService[4]?.path}
+                                        href={"#"}
                                         className="transition-all hover:text-primary"
                                     >
                                         {featuredService[4]?.title}
