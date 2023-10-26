@@ -2,10 +2,11 @@ import PropTypes from 'prop-types';
 import { getAllItems } from '../lib/ItemsUtil';
 import HomeCollection from '../components/HomeCollection';
 import HeaderFour from '../components/HeaderComps/index-4';
+import TransparentHeader from '../components/HeaderComps/TransparentHeader';
 import HeroFour from '../components/Hero/index-4';
 import NewsletterCompsThree from '../components/NewsletterComps/index-3';
 
-import FooterCompsThree from '../components/FooterComps/index-3';
+import FooterComps from '../components/FooterComps';
 import FeaturedService from '../components/HomePage/FeaturedService';
 
 function HomeCarouselPage({
@@ -18,7 +19,7 @@ function HomeCarouselPage({
     return (
         <>
             <HomeCollection>
-                <HeaderFour headerItems={headerItems} />
+            <TransparentHeader headerItems={headerItems} />
                 <HeroFour
                     heroCollectionItems={heroCollectionItems}
                     btnText="Shop Now"
@@ -39,7 +40,10 @@ function HomeCarouselPage({
                 <FeaturedService featuredService={featuredService} />
             </HomeCollection>
             
-            <FooterCompsThree footerItems={footerItems} />
+            <FooterComps
+                footerContainer="container"
+                footerItems={footerItems}
+            />
         </>
     );
 }
@@ -49,7 +53,7 @@ export async function getStaticProps() {
     const heroCollectionItems = await getAllItems('hero-collection');
     const products = await getAllItems('products');
     const footerItems = await getAllItems('footer');
-    const featuredService = await getAllItems('featured-service');
+    const featuredService = await getAllItems('kitchen-renovations-johannesburg');
 
     return {
         props: {
