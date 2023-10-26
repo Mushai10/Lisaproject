@@ -9,4 +9,3 @@ path: '/about'
 buttonText: 'Get in touch'
 buttonText1: 'Learn More'
 ---
-/*If you’re tired of seeing the same four walls and looking for a little house makeover, Clarkson Builders specialise in home Renovations. No matter the room, our expert builders will be able transform your space into something you love. There are no boundaries and no limitations, we love to create something unique and personal to our customers.*/

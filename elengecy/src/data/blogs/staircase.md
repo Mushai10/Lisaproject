@@ -21,5 +21,4 @@ singleImgOne: '/images/rich-text/1-570x327.jpg'
 singleImgTwo: '/images/rich-text/2-570x327.jpg'
 singleImgAlt: 'Single Image'
 isFeatured: true
-blogImg: "/images/services-pictures/s7.jpeg"
 ---

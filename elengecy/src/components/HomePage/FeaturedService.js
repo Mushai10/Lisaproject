@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import Link from 'next/link';
 import { IoArrowForwardOutline } from 'react-icons/io5';
 
-function FeaturedService({ featuredService, callToActions }) {
+function FeaturedService({ featuredService }) {
     const outlineButton =
         'inline-flex items-center border border-secondary text-secondary transition-all hover:bg-secondary hover:text-white leading-[38px] text-[15px] h-[38px] px-[35px]';
     const outlineButton1 =
@@ -18,8 +18,7 @@ function FeaturedService({ featuredService, callToActions }) {
                     <div className="grid md:grid-cols-2 grid-cols-12 lm:gap-x-[30px] md:gap-y-0 gap-y-[30px] group">
                         <div className="md:col-span-1 col-span-12">
                             <Link
-                                // href={featuredService[0]?.path}
-                                href={"#"}
+                                href={featuredService[0]?.path}
                                 className="featured-product-img block transition-all duration-500 group-hover:scale-[1.05]"
                             >
                                 <img
@@ -35,8 +34,7 @@ function FeaturedService({ featuredService, callToActions }) {
                                 </span>
                                 <h2 className="relative after:bg-primary after:absolute after:left-0 after:bottom-0 after:h-[4px] after:w-[70px] pb-[10px] mb-[30px]">
                                     <Link
-                                        // href={featuredService[0]?.path}
-                                        href={"#"}
+                                        href={featuredService[0]?.path}
                                         className="transition-all hover:text-primary"
                                     >
                                         {featuredService[0]?.title}
@@ -45,8 +43,7 @@ function FeaturedService({ featuredService, callToActions }) {
                                 <p>{featuredService[0]?.excerpt}</p>
                                 <div className="mt-[60px]">
                                     <Link
-                                        // href={featuredService[0]?.path}
-                                        href={"#"}
+                                        href={featuredService[0]?.path}
                                         className={outlineButton}
                                     >
                                         {featuredService[0]?.buttonText}
@@ -55,8 +52,7 @@ function FeaturedService({ featuredService, callToActions }) {
                                 </div>
                                 <div className="mt-[60px]">
                                     <Link
-                                        // href={featuredService[0]?.path}
-                                        href={"#"}
+                                        href={featuredService[0]?.path}
                                         className={outlineButton1}
                                     >
                                         {featuredService[0]?.buttonText1}
@@ -76,8 +72,7 @@ function FeaturedService({ featuredService, callToActions }) {
                     <div className="grid md:grid-cols-2 grid-cols-12 lm:gap-x-[30px] md:gap-y-0 gap-y-[30px] group">
                         <div className="md:col-span-1 col-span-12 order-2">
                             <Link
-                                // href={featuredService[1]?.path}
-                                href={"#"}
+                                href={featuredService[1]?.path}
                                 className="featured-product-img block transition-all duration-500 group-hover:scale-[1.05]"
                             >
                                 <img
@@ -93,8 +88,7 @@ function FeaturedService({ featuredService, callToActions }) {
                                 </span>
                                 <h2 className="relative after:bg-primary after:absolute after:left-0 after:bottom-0 after:h-[4px] after:w-[70px] pb-[10px] mb-[30px]">
                                     <Link
-                                        // href={featuredService[1]?.path}
-                                        href={"#"}
+                                        href={featuredService[1]?.path}
                                         className="transition-all hover:text-primary"
                                     >
                                         {featuredService[1]?.title}
@@ -107,8 +101,7 @@ function FeaturedService({ featuredService, callToActions }) {
                                 />
                                 <div className="mt-[60px]">
                                     <Link
-                                        // href={featuredService[1]?.path}
-                                        href={"#"}
+                                        href={featuredService[1]?.path}
                                         className={outlineButton}
                                     >
                                         {featuredService[1]?.buttonText}
@@ -117,15 +110,14 @@ function FeaturedService({ featuredService, callToActions }) {
                                 </div>
                                 <div className="mt-[60px]">
                                     <Link
-                                        // href={featuredService[1]?.path}
-                                        href={"#"}
+                                        href={featuredService[1]?.path}
                                         className={outlineButton1}
                                     >
                                         {featuredService[1]?.buttonText1}
                                         <IoArrowForwardOutline className="ml-[5px]" />
                                     </Link>
                                 </div>
-
+                                
                             </div>
                         </div>
                     </div>
@@ -136,7 +128,7 @@ function FeaturedService({ featuredService, callToActions }) {
                 <h2 className="text-center">
                     Get in touch with us to discuss your project
                 </h2>
-                <div className='flex items-center justify-center gap-8'>
+                <div className='grid md:flex items-center justify-center gap-8'>
                     <div className="mt-[60px] grid items-center justify-center">
                         <Link
                             href={"tel:+2711829899"}
@@ -165,8 +157,7 @@ function FeaturedService({ featuredService, callToActions }) {
                     <div className="grid md:grid-cols-2 grid-cols-12 lm:gap-x-[30px] md:gap-y-0 gap-y-[30px] group">
                         <div className="md:col-span-1 col-span-12">
                             <Link
-                                // href={featuredService[2]?.path}
-                                href={"#"}
+                                href={featuredService[2]?.path}
                                 className="featured-product-img block transition-all duration-500 group-hover:scale-[1.05]"
                             >
                                 <img
@@ -182,8 +173,7 @@ function FeaturedService({ featuredService, callToActions }) {
                                 </span>
                                 <h2 className="relative after:bg-primary after:absolute after:left-0 after:bottom-0 after:h-[4px] after:w-[70px] pb-[10px] mb-[30px]">
                                     <Link
-                                        // href={featuredService[2]?.path}
-                                        href={"#"}
+                                        href={featuredService[2]?.path}
                                         className="transition-all hover:text-primary"
                                     >
                                         {featuredService[2]?.title}
@@ -205,8 +195,7 @@ function FeaturedService({ featuredService, callToActions }) {
                                 </div>
                                 <div className="mt-[60px]">
                                     <Link
-                                        // href={featuredService[2]?.path}
-                                        href={"#"}
+                                        href={featuredService[2]?.path}
                                         className={outlineButton1}
                                     >
                                         {featuredService[2]?.buttonText1}
@@ -225,8 +214,7 @@ function FeaturedService({ featuredService, callToActions }) {
                         <div className="grid md:grid-cols-2 grid-cols-12 lm:gap-x-[30px] md:gap-y-0 gap-y-[30px] group">
                             <div className="md:col-span-1 col-span-12 order-2">
                                 <Link
-                                    // href={featuredService[3]?.path}
-                                    href={"#"}
+                                    href={featuredService[3]?.path}
                                     className="featured-product-img block transition-all duration-500 group-hover:scale-[1.05]"
                                 >
                                     <img
@@ -242,8 +230,7 @@ function FeaturedService({ featuredService, callToActions }) {
                                     </span>
                                     <h2 className="relative after:bg-primary after:absolute after:left-0 after:bottom-0 after:h-[4px] after:w-[70px] pb-[10px] mb-[30px]">
                                         <Link
-                                            // href={featuredService[3]?.path}
-                                            href={"#"}
+                                            href={featuredService[3]?.path}
                                             className="transition-all hover:text-primary"
                                         >
                                             {featuredService[3]?.title}
@@ -256,8 +243,7 @@ function FeaturedService({ featuredService, callToActions }) {
                                     />
                                     <div className="mt-[60px]">
                                         <Link
-                                            // href={featuredService[3]?.path}
-                                            href={"#"}
+                                            href={featuredService[3]?.path}
                                             className={outlineButton}
                                         >
                                             {featuredService[3]?.buttonText}
@@ -267,12 +253,14 @@ function FeaturedService({ featuredService, callToActions }) {
 
 
                                 </div>
+                               
+                                
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
+            
             <div
                 className="featured-product xl:pt-[120px] lg:pt-[100px] md:pt-[80px] pt-[50px] xl:pb-[110px] lg:pb-[90px] pb-[60px] relative before:content-[attr(data-count)] before:absolute before:text-[#F5F4F7] before:font-semibold before:xxl:text-[150px]  before:xl:text-[80px] before:text-[40px] before:bottom-[35px] before:right-0 before:z-[1]"
                 data-count="Elengecy"
@@ -281,8 +269,7 @@ function FeaturedService({ featuredService, callToActions }) {
                     <div className="grid md:grid-cols-2 grid-cols-12 lm:gap-x-[30px] md:gap-y-0 gap-y-[30px] group">
                         <div className="md:col-span-1 col-span-12">
                             <Link
-                                // href={featuredService[4]?.path}
-                                href={"#"}
+                                href={featuredService[4]?.path}
                                 className="featured-product-img block transition-all duration-500 group-hover:scale-[1.05]"
                             >
                                 <img
@@ -298,8 +285,7 @@ function FeaturedService({ featuredService, callToActions }) {
                                 </span>
                                 <h2 className="relative after:bg-primary after:absolute after:left-0 after:bottom-0 after:h-[4px] after:w-[70px] pb-[10px] mb-[30px]">
                                     <Link
-                                        // href={featuredService[4]?.path}
-                                        href={"#"}
+                                        href={featuredService[4]?.path}
                                         className="transition-all hover:text-primary"
                                     >
                                         {featuredService[4]?.title}
@@ -319,20 +305,19 @@ function FeaturedService({ featuredService, callToActions }) {
                                         <IoArrowForwardOutline className="ml-[5px]" />
                                     </Link>
                                 </div>
-
+                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
+            
         </>
     );
 }
 
 FeaturedService.propTypes = {
     featuredService: PropTypes.instanceOf(Object).isRequired,
-    callToActions: PropTypes.instanceOf(Object),
 };
 
 export default FeaturedService;

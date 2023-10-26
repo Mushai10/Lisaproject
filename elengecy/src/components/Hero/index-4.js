@@ -42,6 +42,9 @@ function HeroFour({ heroCollectionItems, settings, btnText }) {
         onSlideChangeTransitionEnd,
     };
 
+    const secondaryButton =
+        'inline-flex items-center bg-secondary text-white leading-[38px] text-[15px] h-[38px] px-5';
+
     return (
         <div className="hero-area">
             <div className="container-fluid">
@@ -192,7 +195,8 @@ function HeroFour({ heroCollectionItems, settings, btnText }) {
                                                 >
                                                     <Link
                                                         href="/products/left-sidebar"
-                                                        className="text-[18px] flex items-center transition-all hover:text-primary"
+                                                        // className="text-[18px] flex items-center transition-all hover:text-primary"
+                                                        className={secondaryButton}
                                                     >
                                                         {btnText}
                                                         <IoArrowForwardOutline className="light-stroke ml-[5px]" />
