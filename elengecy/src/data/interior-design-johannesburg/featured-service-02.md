@@ -6,6 +6,6 @@ excerpt: 'Next, our  interior designers will conduct a through analysis of your 
 image: '/images/furniture/kitchenrenovationsjohhanesburg.jpeg'
 altImage: 'Featured Service Image'
 path: '/about'
-buttonText: 'Book Consultant'
-buttonText1: 'Bok Consultant'
+buttonText: 'Book a Consultation'
+buttonText1: 'Get in touch'
 ---

@@ -2,10 +2,10 @@
 id: 'featured-service-03'
 subTitle: 'We’ve got even more designs.'
 title: 'Traditional & Modern Kitchen Renovation'
-excerpt: 'Adding a fresh look to your kitchen can be exciting but often requires a lot of effort.At Elengency interiors we know how to make this process easier for you.Talk to us today and let’s discuss options and ideas for renovating your kitchen.Elements of a traditional kitchen include luxury countertops, farmhouse sinks, raised-panel doors, decorative mouldings and corbels.Modern kitchen include flat-panel doors, frameless, full-overlay cabinet construction, consistency of accent pieces, emphasis on horizontal lines and designed in a way to let the materials’ natural beauty pop! If this is the look you’re after, contact us or book a consultation and we assist making the right choice for your project.'
+excerpt: "Adding a fresh look to your kitchen can be exciting but often requires a lot of effort.At Elengency interiors we know how to make this process easier for you.TGive us a call today and let's talk about your kitchen renovation options and ideas!Traditional Kitchen Elements:Luxury Countertops, Farmhouse Sinks, Raised Panel Doors, Decorative Moldings, Corbels. Modern Kitchen Elements: Flat Panel Doors, Frameless, Full Overlay Cabinet Construction, Consistency of Accent Pieces, Horizontal Lines, and designed in a way to let the materials’ natural beauty pop!"
 image: '/images/furniture/kıtchen_renovatıons_joburg.jpeg'
 altImage: 'Featured Service Image'
 path: '/about'
-buttonText: 'Book A Consultation'
+buttonText: 'Book a Consultation'
 buttonText1: 'Get in touch'
 ---

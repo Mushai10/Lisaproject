@@ -9,7 +9,7 @@ function HeroThree({ heroCarouselItems, settings }) {
     });
     settings = {
         autoplay: {
-            delay: 3000,
+            delay: 10000,
             disableOnInteraction: false,
         },
         pagination: false,

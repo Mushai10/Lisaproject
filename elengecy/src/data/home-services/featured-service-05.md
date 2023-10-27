@@ -6,5 +6,5 @@ excerpt: "We’re a one-stop shop for clients and architects looking for bespoke
 image: '/images/furniture/10.jpg'
 altImage: 'Featured Service Image'
 path: '/about'
-buttonText: 'Call Us Now'
+buttonText: 'Get in touch'
 ---

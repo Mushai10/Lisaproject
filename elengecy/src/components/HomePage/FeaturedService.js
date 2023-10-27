@@ -126,7 +126,7 @@ function FeaturedService({ featuredService }) {
             {/* TODO: Call to action button */}
             <div className="my-10 bg-primary featured-product xl:pt-[120px] lg:pt-[100px] md:pt-[80px] pt-[50px] xl:pb-[110px] lg:pb-[90px] pb-[60px] relative before:content-[attr(data-count)] before:absolute before:text-[#F5F4F7] before:font-semibold before:xxl:text-[150px]  before:xl:text-[80px] before:text-[40px] before:bottom-[35px] before:right-0 before:z-[1] items-center">
                 <h2 className="text-center">
-                    Get in touch with us to discuss your project
+                Let's Talk About Your Project
                 </h2>
                 <div className='grid md:flex items-center justify-center gap-8'>
                     <div className="mt-[60px] grid items-center justify-center">

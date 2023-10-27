@@ -7,6 +7,6 @@ image: '/images/furniture/bathroom-renovations-sandton.jpeg'
 altImage: 'Featured Service Image'
 path: '/about'
 buttonText: 'Book A Consultation'
-buttonText1: 'Call Us Now'
+buttonText1: 'Get in touch'
 ---
 /**/

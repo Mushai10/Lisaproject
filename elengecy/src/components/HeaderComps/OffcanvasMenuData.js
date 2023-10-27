@@ -39,9 +39,9 @@ export const OffcanvasData = [
     },
     {
         id: 2,
-        title: 'Products',
+        title: 'Full House Renovation',
         cName: 'has-no-children',
-        link: '/products'
+        link: '/home-renovations-johannesburg'
         // submenu: [
         //     {
         //         id: 'product-pages',
@@ -123,6 +123,18 @@ export const OffcanvasData = [
     },
     {
         id: 3,
+        link: '/contact',
+        title: 'Kitchen Renovations',
+        cName: 'has-no-children',
+    },
+    {
+        id: 4,
+        link: '/contact',
+        title: 'Bathroom Renovations',
+        cName: 'has-no-children',
+    },
+    {
+        id: 4,
         link: '/contact',
         title: 'Contact Us',
         cName: 'has-no-children',

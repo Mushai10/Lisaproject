@@ -6,6 +6,6 @@ excerpt: 'Once we have refined the concepts to align with your vision,we will cr
 image: '/images/furniture/colaboration (1).jpg'
 altImage: 'Featured Service Image'
 path: '/about'
-buttonText: 'Read More'
-buttonText1: 'Book Consultant'
+buttonText: 'Book a Consultation'
+buttonText1: 'Get in touch'
 ---

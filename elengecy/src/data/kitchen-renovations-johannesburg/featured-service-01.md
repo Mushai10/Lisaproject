@@ -6,6 +6,6 @@ excerpt: "You’ve taken the first step to installing your dream kitchen,and cup
 image: '/images/furniture/kitchen-renovation-sandton.jpeg'
 altImage: 'Featured Service Image'
 path: '/about'
-buttonText: 'Book A Consultation'
-buttonText1: 'Get In Touch'
+buttonText: 'Book a Consultation'
+buttonText1: 'Get in touch'
 ---

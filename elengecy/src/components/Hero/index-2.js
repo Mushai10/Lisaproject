@@ -21,7 +21,7 @@ function HeroTwo({ heroBoxedItems, settings }) {
 
     settings = {
         autoplay: {
-            delay: 4000,
+            delay: 10000,
             disableOnInteraction: false,
         },
         pagination: false,

@@ -6,6 +6,6 @@ excerpt: 'Based on the information gathered , our talented designers will create
 image: '/images/furniture/elengency-interiors-moad-board.jpeg'
 altImage: 'Featured Service Image'
 path: '/about'
-buttonText: 'Book Consultant'
-buttonText1: 'Book Cnsultant'
+buttonText: 'Book a Consultation'
+buttonText1: 'Get in touch'
 ---

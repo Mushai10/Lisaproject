@@ -6,6 +6,6 @@ excerpt: 'Your input is invaluable to us.We encourage open communication through
 image: '/images/furniture/colaboration (2).jpg'
 altImage: 'Featured Service Image'
 path: '/about'
-buttonText: 'Read More'
-buttonText1: 'Book Consultant'
+buttonText: 'Book a Consultation'
+buttonText1: 'Get in touch'
 ---

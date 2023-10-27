@@ -22,7 +22,7 @@ function HeroFour({ heroCollectionItems, settings, btnText }) {
 
     settings = {
         autoplay: {
-            delay: 4000,
+            delay: 10000,
             disableOnInteraction: false,
         },
         pagination: {

@@ -6,6 +6,6 @@ excerpt: ' Start Your next Project with Us. We Listen to Your Needs and Work Har
 image: '/images/furniture/homerenovationsandton.jpeg'
 altImage: 'Featured Service Image'
 path: '/about'
-buttonText: 'Book Consultant'
-buttonText1: 'Book Consult'
+buttonText: 'Book a Consultation'
+buttonText1: 'Get in touch'
 ---

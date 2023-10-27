@@ -22,7 +22,7 @@ function HomeCarouselPage({
             <TransparentHeader headerItems={headerItems} />
                 <HeroFour
                     heroCollectionItems={heroCollectionItems}
-                    btnText="Shop Now"
+                    btnText="Get in Touch"
                 />
                 {/* <NewsletterCompsThree
                     newsletterCName="newsletter-area lg:pt-[95px] md:pt-[75px] pt-[45px]"

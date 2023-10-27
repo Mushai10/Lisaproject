@@ -6,6 +6,6 @@ excerpt: ' This service extends beyond the traditional role of architects in des
 image: '/images/furniture/kitchen-interiors.jpeg'
 altImage: 'Featured Service Image'
 path: '/about'
-buttonText: 'Read More'
+buttonText: 'Book a Consultation'
 ---
 /*Architectural consulting is a professional service provided by architects and architectural firms to assist clients in various aspects of the architectural and building design process.We are available for all types of jobsPlease explore our kitchen projects.Whether you need ‘quick meal prep’ or ‘big brunch’ kind of space, let us design your kitchen to suit your style. Have a look through our wide variety of kitchen projects that our customers have trusted Easylife Kitchens to deliver on style, quality and workmanship.*/

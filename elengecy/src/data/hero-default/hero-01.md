@@ -1,7 +1,7 @@
 ---
 id: 'hero-default-01'
 heroBG: 'hero-bg hero-default-bg-01'
-subtitle: 'Interior Designing <br /> 2023'
-title: 'Start planning your new space, <br /> with Elengecy Interiors'
-desc: 'Elengency is a leading full house, bathroom ,kitchen , built-in cupboards (BIC), bar and bedroom storage design, installer<br /> and manufacturer in Johanesburg.'
+subtitle: 'Where Comfort Meets  <br /> Elegance'
+title: 'Luxury Interior <br />Design Services'
+desc: 'We offer interior design services and also provide the best furniture for yours  <br /> We cater to your design needs'
 ---
