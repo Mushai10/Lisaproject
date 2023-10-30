@@ -7,6 +7,7 @@ import NewsletterCompsThree from '../components/NewsletterComps/index-3';
 import NewArrivalTwo from '../components/NewArrival/index-2';
 import FooterComps from '../components/FooterComps';
 import FeaturedService from '../components/HomePage/FeaturedService';
+import TransparentHeader from '../components/HeaderComps/TransparentHeader';
 
 function HomeCarouselPage({
     footerItems,
@@ -18,7 +19,7 @@ function HomeCarouselPage({
     return (
         <>
             <HomeCollection>
-                <HeaderFour headerItems={headerItems} />
+                <TransparentHeader headerItems={headerItems} />
                 <HeroFour
                     heroCollectionItems={heroCollectionItems}
                     btnText="Get in Touch"

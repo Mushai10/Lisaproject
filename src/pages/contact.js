@@ -4,12 +4,12 @@ import Breadcrumb from '../components/Breadcrumb';
 import ContactUs from '../components/Contact';
 import FooterComps from '../components/FooterComps';
 import { getAllItems } from '../lib/ItemsUtil';
-import HeaderFour from '../components/HeaderComps/index-4';
+import TransparentHeader from '../components/HeaderComps/TransparentHeader';
 
 function ContactPage({ headerItems, contactItems, footerItems }) {
     return (
         <>
-            <HeaderFour headerItems={headerItems} headerContainer="container" />
+            <TransparentHeader headerItems={headerItems} headerContainer="container" />
             <Breadcrumb
                 breadcrumbContainer="container"
                 title="Contact"

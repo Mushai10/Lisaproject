@@ -39,6 +39,12 @@ export const OffcanvasData = [
     },
     {
         id: 2,
+        link: '/interior-design-johannesburg',
+        title: 'Bathroom Renovations',
+        cName: 'has-no-children',
+    },
+    {
+        id: 3,
         title: 'Full House Renovation',
         cName: 'has-no-children',
         link: '/home-renovations-johannesburg'
@@ -123,18 +129,25 @@ export const OffcanvasData = [
     },
     {
         id: 3,
-        link: '/contact',
+        link: '/kitchen-renovations-johannesburg',
         title: 'Kitchen Renovations',
         cName: 'has-no-children',
     },
     {
         id: 4,
-        link: '/contact',
+        link: '/bathroom-renovations-johannesburg',
         title: 'Bathroom Renovations',
         cName: 'has-no-children',
     },
     {
-        id: 4,
+        id: 5,
+        link: '/interior-design-johannesburg',
+        title: 'Architecture and Interior Design',
+        cName: 'has-no-children',
+    },
+    
+    {
+        id: 6,
         link: '/contact',
         title: 'Contact Us',
         cName: 'has-no-children',

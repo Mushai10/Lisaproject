@@ -16,19 +16,19 @@ socialList:
             path: 'https://www.instagram.com/elengecy_interiors/',
         },
     ]
-infoTitle: 'Help & Information'
+infoTitle: 'Our Services'
 infoList:
     [
-        { id: 01, title: 'Help & Contact Us', path: '/contact' },
-        { id: 02, title: 'Returns & Refunds', path: '/contact' },
-        { id: 03, title: 'Online Stores', path: '/' },
-        { id: 04, title: 'Terms & Conditions', path: '/contact' },
+        { id: 01, title: 'Home Renovations', path: '/home-renovations-johannesburg' },
+        { id: 02, title: 'Kitchen Renovations', path: '/kitchen-renovations-johannesburg' },
+        { id: 03, title: 'Bathroom Renovation', path: '/bathroom-renovations-johannesburg' },
+        { id: 04, title: 'Architecture and Interior Design', path: '/interior-design-johannesburg' },
     ]
-aboutTitle: 'About Us'
+aboutTitle: 'Contact Us'
 aboutList:
     [
         { id: 01, title: 'About Us', path: '/about' },
-        { id: 02, title: 'What We Do', path: '/about' },
+        { id: 02, title: 'Book a Consultation', path: '/about' },
         # { id: 03, title: 'FAQ Page', path: '/faq' },
         { id: 03, title: 'Contact Us', path: '/contact' },
     ]

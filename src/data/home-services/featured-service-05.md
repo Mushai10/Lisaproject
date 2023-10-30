@@ -2,7 +2,7 @@
 id: 'featured-service-05'
 subTitle: 'Furniture Procument for our clients'
 title: "Furniture and Joinery"
-excerpt: "We’re a one-stop shop for clients and architects looking for bespoke bathroom and kitchen packages. As we are not affiliated with any brand or supplier, we are able to provide you with the best possible suitable solution that meets both the design standards and aesthetics, as well as the requirements of the project scope and budget.Full design and specification of all joinery and items of a built-in nature i.e. dressing room, sideboard/servers, wall units etc. Full coordination and presentation, procurement and installation of all loose furniture.Full proposals, selections, and coordination of all interior finishes (floors, walls ceilings, lighting etc.)"
+excerpt: "We're the go-to for all your renovation needs. We're not affiliated with any brands or suppliers, so we can help you find the perfect furniture that meets your design standards and looks great, plus the needs of the project and budget. We'll design and specify all the joinery and built-in items, like dressing rooms, sideboards, servers, and wall units. Plus, we'll coordinate and present, buy, and install all the loose furniture. We'll also take care of all the interior finishes, like floors, walls, ceilings, and lighting."
 image: '/images/furniture/10.jpg'
 altImage: 'Featured Service Image'
 path: '/about'

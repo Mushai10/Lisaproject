@@ -1,6 +1,6 @@
 ---
 id: 'featured-service-04'
-subTitle: 'Architectural Consulting & Project Management'
+subTitle: 'Furnishings'
 title: 'Interior design & complete furnishings '
 excerpt: "We know that small changes can make a big difference. Our home renovation service focuses on updating your interiors through core design elements such as flooring, lighting, ceilings, skirtings and doors to create a new design language.We manage the demolition and replacement process, and obtain the go ahead from body corporates if required.We also know that first impressions count. A renovated bathroom or well-dressed house can make all the difference when you’re renting or selling. Whether you are looking to renovate an Airbnb or a rental property, or you are looking to prepare a property for sale, we will take care of the project from beginning to end.If you’re looking to update your soft furnishings, our close working relationship with a leading interior decorator allows us to assist with a full new room scheme. From cutlery and curtains to carefully selected wall hangings, we’ll work with you to ensure we find an aesthetic that matches your style and personality. "
 image: '/images/furniture/bathroom-renovations-johannesburgsouth.jpeg'
