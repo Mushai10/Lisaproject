@@ -7,6 +7,8 @@ import NewsletterCompsThree from '../components/NewsletterComps/index-3';
 import NewArrivalTwo from '../components/NewArrival/index-2';
 import FooterCompsThree from '../components/FooterComps/index-3';
 import FeaturedService from '../components/HomePage/FeaturedService';
+import TransparentHeader from '../components/HeaderComps/TransparentHeader';
+import FooterComps from '../components/FooterComps';
 
 function HomeCarouselPage({
     footerItems,
@@ -19,10 +21,10 @@ function HomeCarouselPage({
     return (
         <>
             <HomeCollection>
-                <HeaderFour headerItems={headerItems} />
+                <TransparentHeader headerItems={headerItems} />
                 <HeroFour
                     heroCollectionItems={heroCollectionItems}
-                    btnText="Shop Now"
+                    btnText="Get in Touch"
                 />
                 {/* <NewsletterCompsThree
                     newsletterCName="newsletter-area lg:pt-[95px] md:pt-[75px] pt-[45px]"
@@ -39,7 +41,10 @@ function HomeCarouselPage({
                 /> */}
                 <FeaturedService featuredService={featuredService} />
             </HomeCollection>
-            <FooterCompsThree footerItems={footerItems} />
+            <FooterComps
+                footerContainer="container"
+                footerItems={footerItems}
+            />
         </>
     );
 }
@@ -50,7 +55,7 @@ export async function getStaticProps() {
     // const newArrivalTwo = await getAllItems('home-collection');
     const products = await getAllItems('products');
     const footerItems = await getAllItems('footer');
-    const featuredService = await getAllItems('interior-design-johannesburg');
+    const featuredService = await getAllItems('land-scapping-johannesburg');
 
     return {
         props: {
@@ -67,7 +72,7 @@ export async function getStaticProps() {
 HomeCarouselPage.propTypes = {
     headerItems: PropTypes.instanceOf(Object).isRequired,
     heroCollectionItems: PropTypes.instanceOf(Object).isRequired,
-    newArrivalTwo: PropTypes.instanceOf(Object).isRequired,
+    featuredService: PropTypes.instanceOf(Object).isRequired,
     products: PropTypes.instanceOf(Object).isRequired,
     footerItems: PropTypes.instanceOf(Object).isRequired,
 };

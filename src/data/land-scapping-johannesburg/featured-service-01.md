@@ -1,11 +1,11 @@
 ---
 id: 'featured-service-01'
-subTitle: 'Featured Service'
-title: 'Home Renovation'
-excerpt: 'Maybe you’re planning to remodel your kitchen, turn your garage into a home office or simply update your bathroom. Before you start any renovations, here’s what you should know.Home renovation or remodeling requires both architectural and financial planning. Learn how to set a budget, hire a contractor, and much more.Home renovation services encompass a wide range of activities aimed at improving or updating various aspects of a residential property. These services can vary in scale and scope, from small interior upgrades to extensive structural changes. We Can Help Plan Structural Redesigns and Decor Themes. Start Your next Project with Us. We Listen to Your Needs and Work Hard to Achieve Your Interior Design Goals. '
-image: '/images/furniture/homerenovationsandton.jpeg'
+title: 'Landscaping'
+excerpt: 'Designing sustainable, high quality, bespoke and florapolitan landscapes is essential to meeting the environmental, economic, and climate intelligence imperatives of twenty-first century South Africa. We bring together the key skills required to plan, design, and deliver major landscape and allied infrastructure development works. Our experience, which covers a vast array of award worthy projects, includes the design and installation of civil and commercial landscapes, regeneration projects,  general  public  access  developments,  streetscape  developments,  transit  orientated developments,  waterfront  redevelopments,  mixed-use  buildings  and  prestige  private  executive wealth manors or residential security estates. '
+image: '/images/furniture/landscaping-johhanesburg.jpeg'
 altImage: 'Featured Service Image'
 path: '/about'
-buttonText: 'Get in touch'
-buttonText1: 'Learn More'
+buttonText: 'Get in Touch'
+buttonText1: 'Book a Consultation'
+
 ---

@@ -18,11 +18,11 @@ socialList:
     ]
 infoTitle: 'Our Services'
 infoList:
-    [
-        { id: 01, title: 'Home Renovations', path: '/home-renovations-johannesburg' },
-        { id: 02, title: 'Kitchen Renovations', path: '/kitchen-renovations-johannesburg' },
-        { id: 03, title: 'Bathroom Renovation', path: '/bathroom-renovations-johannesburg' },
-        { id: 04, title: 'Architecture and Interior Design', path: '/interior-design-johannesburg' },
+    [  { id: 01, title: 'Architecture and Interior Design', path: '/interior-design-johannesburg' },
+        { id: 02, title: 'Home Renovations', path: '/home-renovations-johannesburg' },
+        { id: 03, title: 'Kitchen Renovations', path: '/kitchen-renovations-johannesburg' },
+        { id: 04, title: 'Bathroom Renovation', path: '/bathroom-renovations-johannesburg' },
+        { id: 05, title: 'Landscaping', path: '/land-scapping-johannesburg' },
     ]
 aboutTitle: 'Contact Us'
 aboutList:

@@ -38,14 +38,14 @@ export const OffcanvasData = [
         // ],
     },
     {
-        id: 2,
+        id: 6,
         link: '/interior-design-johannesburg',
-        title: 'Bathroom Renovations',
+        title: 'Architecture and Interior Design',
         cName: 'has-no-children',
     },
     {
-        id: 3,
-        title: 'Full House Renovation',
+        id: 2,
+        title: 'Full House Renovations',
         cName: 'has-no-children',
         link: '/home-renovations-johannesburg'
         // submenu: [
@@ -141,13 +141,14 @@ export const OffcanvasData = [
     },
     {
         id: 5,
-        link: '/interior-design-johannesburg',
-        title: 'Architecture and Interior Design',
+        link: '/land-scapping-johannesburg',
+        title: 'Landscapping',
         cName: 'has-no-children',
     },
+   
     
     {
-        id: 6,
+        id: 7,
         link: '/contact',
         title: 'Contact Us',
         cName: 'has-no-children',

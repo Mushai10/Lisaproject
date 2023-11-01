@@ -1,11 +1,11 @@
 ---
 id: 'featured-service-03'
-subTitle: 'Featured Service'
-title: 'Bathroom Renovations'
-excerpt: 'Bathroom renovation services are professional offerings that encompass the planning, design, and execution of bathroom remodeling projects.These services are provided by contractors, interior designers, or specialized renovation companies and aim to improve the functionality, aesthetics, and overall value of a bathroom space.Intended for clients who have most of their furnishings in place, but need assistance from an expert stylist in taking their proiect to completion with selections of decorative details and accent furniture from our showroom to tie their room(s) together and bring their vision to life.'
-image: '/images/furniture/bathroomrenovationssandton.jpeg'
+title: 'Transform your outdoor living space'
+excerpt: 'Landscaping is not just an aesthetic construction discipline for us.It is a veritable platform for skills training and employment creation, it is a vehicle to deliver significant tax benefits and carbon credit revenue to large property portfolio owners and it is also an opportunity to create health, wellness and wealth management solutions for home owners and corporate organisation personnel across the country. We proudly create avante garde upcyling solutions such as glass gabion retainer or boundary walls, water features, pot pedestals and anti-erosion river gabions – giving practical and visually resplendent use to a ubiquitous waste resource that government has banned from landfill and is replete in illegal dumps across the country. Our avante garde landscaping propositions are also available on a credit basis with 12 to 48 credit score linked affordable monthly repayments.'
+image: '/images/furniture/landscaping.jpeg'
 altImage: 'Featured Service Image'
 path: '/about'
-buttonText: 'Get in touch'
-buttonText1: 'Learn More'
+buttonText: 'Get in Touch'
+buttonText1: 'Book a Consultation'
+
 ---

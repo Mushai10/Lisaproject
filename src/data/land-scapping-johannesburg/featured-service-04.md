@@ -1,10 +1,10 @@
 ---
 id: 'featured-service-04'
-subTitle: 'Architectural Consulting & Project Management'
-title: 'Architectural Consulting & Project Management'
-excerpt: 'Architectural consulting is a professional service provided by architects and architectural firms to assist clients in various aspects of the architectural and building design process. This service extends beyond the traditional role of architects in designing buildings; it encompasses a range of consulting services to guide clients through the complexities of planning, design, construction, and renovation projectsIntended for clients who have most of their furnishings in place, but need assistance from an expert stylist in taking their proiect to completion with selections of decorative details and accent furniture from our showroom to tie their room(s) together and bring their vision to life.'
-image: '/images/furniture/bathroomrenovationssandton.jpeg'
+title: 'Where, What and How we Work'
+excerpt: 'We cater for soft landscaping which incorporates indigenous landscaping and design, Drought tolerant/waterwise landscaping and design , nature/wildlife loving garden landscaping and design, and of course edible garden/organic/food garden landscaping and designs.Village Gardens caters for all your hardscaping needs to, this will incorporate your decking and pergola landscaping designs, Paving and rock gardens landscaping designs, we also pride ourselves on our lovely water features we can design and install.Last but not least Village Gardens do seasonal maintenance landscaping, from plucking, pruning, cutting and treating, we will do landscaping garden maintenance on a seasonal basis.'
+image: '/images/furniture/landscaping-fourways.jpg'
 altImage: 'Featured Service Image'
 path: '/about'
-buttonText: 'Read More'
+buttonText: 'Get in Touch'
+buttonText1: 'Book a Consultation'
 ---
