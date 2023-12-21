@@ -5,6 +5,7 @@ mediumImage: '374x243.jpg'
 masonry: '366x469.jpg'
 largeImage: '854x491.jpg'
 extraLargeImage: '1146x745.jpg'
+Image: /images/services-pictures/johannesburg-kitchen-renovations.jpeg
 altImage: 'interior design'
 date: '2023-10-20'
 author: 'Admin'

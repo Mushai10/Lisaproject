@@ -5,6 +5,7 @@ mediumImage: '374x243.jpg'
 masonry: '366x238.jpg'
 largeImage: '854x491.jpg'
 extraLargeImage: '1146x745.jpg'
+Image: /images/services-pictures/bathroom-renovations-johanesburg.jpeg
 altImage: 'Unique Products'
 date: '2023-11-27'
 author: 'Admin'

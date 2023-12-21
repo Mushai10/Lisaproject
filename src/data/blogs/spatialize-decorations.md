@@ -5,6 +5,7 @@ mediumImage: '374x243.jpg'
 masonry: '366x376.jpg'
 largeImage: '854x491.jpg'
 extraLargeImage: '1146x745.jpg'
+Image: /images/services-pictures/johannesburg-kitchen-renovations.jpeg
 altImage: 'Spatialize Decorations'
 date: '2023-11-11'
 author: 'Admin'

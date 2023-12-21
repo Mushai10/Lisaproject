@@ -5,6 +5,7 @@ mediumImage: '374x243.jpg'
 masonry: '366x257.jpg'
 largeImage: '854x491.jpg'
 extraLargeImage: '1146x745.jpg'
+Image: /images/services-pictures/cabinet-renovations.jpeg
 altImage: 'Cotton Rugs'
 date: '2023-10-10'
 author: 'Admin'

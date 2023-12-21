@@ -5,6 +5,7 @@ mediumImage: '374x243.jpg'
 masonry: '366x432.jpg'
 largeImage: '854x491.jpg'
 extraLargeImage: '1146x745.jpg'
+Image: /images/services-pictures/cabinet-renovations.jpeg
 altImage: 'Fitted Kitchen'
 date: '2023-10-11'
 author: 'Admin'

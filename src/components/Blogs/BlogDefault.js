@@ -3,7 +3,7 @@ import { useState } from 'react';
 import BlogItem from './BlogItem';
 
 function BlogDefault({ blogs }) {
-    const [noOfElement, setNoOfElement] = useState(6);
+    const [noOfElement, setNoOfElement] = useState(9);
     const blogSlice = blogs.slice(0, noOfElement);
 
     const loadMore = () => {

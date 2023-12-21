@@ -5,6 +5,7 @@ mediumImage: '374x243.jpg'
 masonry: '366x423.jpg'
 largeImage: '854x491.jpg'
 extraLargeImage: '1146x745.jpg'
+Image: /images/services-pictures/kitchen-renovations-johannesburg.jpeg
 altImage: 'Award Winning'
 date: '2023-10-23'
 author: 'Admin'

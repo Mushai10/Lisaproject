@@ -5,6 +5,7 @@ mediumImage: '374x243.jpg'
 masonry: '366x376.jpg'
 largeImage: '854x491.jpg'
 extraLargeImage: '1146x745.jpg'
+Image: /images/services-pictures/lounge-renovations-johannesburg.jpeg
 altImage: 'Staircase'
 date: '2023-11-18'
 author: 'Admin'

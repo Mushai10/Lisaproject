@@ -5,6 +5,7 @@ mediumImage: '374x243.jpg'
 masonry: '366x494.jpg'
 largeImage: '854x491.jpg'
 extraLargeImage: '1146x745.jpg'
+Image: /images/services-pictures/interior-design-johannesburg.jpeg
 altImage: 'Striped Rug'
 date: '2023-11-25'
 author: 'Admin'

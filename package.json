@@ -13,9 +13,11 @@
     },
     "dependencies": {
         "@chec/commerce.js": "^2.8.0",
+        "@emailjs/browser": "^3.11.0",
         "@reduxjs/toolkit": "^1.9.1",
         "autoprefixer": "^10.4.13",
         "disqus-react": "^1.1.5",
+        "emailjs-com": "^3.2.0",
         "framer-motion": "^8.0.2",
         "gray-matter": "^4.0.3",
         "js-yaml": "^4.1.0",
