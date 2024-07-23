@@ -12,7 +12,7 @@ languageList: [{ id: language-01, text: 'English', path: '/' }]
 currencyTitle: 'Currency'
 currencyList: [{ id: currency-01, text: 'ZAR - South African Rand', path: '/' }]
 contactInfoTitle: 'Contact Us'
-contactInfo: 'Elengecy Interiors 9th Floor, Atrium on 5th Building 5th Street, Sandton, 2196 <br/> sales@elengecyinteriors.com <br/>+27815563699'
+contactInfo: 'Elengecy Interiors 9th Floor, Atrium on 5th Building 5th Street, Sandton, 2196 <br/> sales@elengecyinteriors.com <br/>+2711829899'
 socialTitle: 'Follow Us On Our Socials'
 socialList:
     [

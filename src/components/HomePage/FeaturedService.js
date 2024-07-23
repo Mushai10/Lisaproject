@@ -140,7 +140,7 @@ function FeaturedService({ featuredService }) {
                     </div>
                     <div className="mt-[60px] grid items-center justify-center">
                         <Link
-                            href={"/contact"}
+                            href="tel:+2711829899"
                             className={outlineButton}
                         >
                             Book a Consultation
