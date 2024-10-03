@@ -193,7 +193,7 @@ function HeroOne({ heroDefaultItems, settings }) {
                                             }}
                                         >
                                             <Link
-                                                href="tel:+2711829899"
+                                                href="tel:+27 (11) 082-9899"
                                                 className={secondaryButton}
                                             // className={"flex "}
                                             >

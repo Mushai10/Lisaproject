@@ -131,7 +131,7 @@ function FeaturedService({ featuredService }) {
                 <div className='grid md:flex items-center justify-center gap-8'>
                     <div className="mt-[60px] grid items-center justify-center">
                         <Link
-                            href={"tel:+2711829899"}
+                            href={"tel:+27 (11) 082-9899"}
                             className={outlineButton}
                         >
                             Contact Us
@@ -140,7 +140,7 @@ function FeaturedService({ featuredService }) {
                     </div>
                     <div className="mt-[60px] grid items-center justify-center">
                         <Link
-                            href="tel:+2711829899"
+                            href="tel:+27 (11) 082-9899"
                             className={outlineButton}
                         >
                             Book a Consultation

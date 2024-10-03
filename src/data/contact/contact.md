@@ -11,7 +11,7 @@ singleContactInfo:
             id: 02,
             infoIcon: 'IoCallOutline',
             title: 'Phone number',
-            desc: '+2711829899',
+            desc: '+27 (11) 082-9899',
         },
         {
             id: 03,

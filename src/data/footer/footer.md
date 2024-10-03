@@ -5,8 +5,8 @@ address: >
     <br />paces Atrium on 5th Sandton, 
     <br />Atrium on 5th Building 5th Street,
     <br />Sandton, 2196
-contactNumber: 'tel:+2711829899'
-contactNumberText: '+2711829899'
+contactNumber: 'tel:+27 (11) 082-9899'
+contactNumberText: '+27 (11) 082-9899'
 socialTitle: 'Follow Us On Our Social'
 socialList:
     [
