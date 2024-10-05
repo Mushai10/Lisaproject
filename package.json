@@ -12,7 +12,7 @@
         "format": "prettier --ignore-path .prettierignore --write \"**/*.{js,jsx,ts,tsx,json,md}\""
     },
     "dependencies": {
-        "@chec/commerce.js": "^2.8.0",
+        "@chec/commerce.js": "^1.0.0",
         "@emailjs/browser": "^3.11.0",
         "@reduxjs/toolkit": "^1.9.1",
         "autoprefixer": "^10.4.13",
@@ -21,7 +21,7 @@
         "framer-motion": "^8.0.2",
         "gray-matter": "^4.0.3",
         "js-yaml": "^4.1.0",
-        "next": "13.1.1",
+        "next": "^13.5.7",
         "prop-types": "^15.8.1",
         "react": "^18.2.0",
         "react-dom": "18.2.0",
